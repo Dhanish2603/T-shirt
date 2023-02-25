@@ -35,21 +35,26 @@ function carouselClose(num) {
     window.onscroll = function() {scrollFunction()};
 
     function scrollFunction() {
-  if (document.body.scrollTop > 100|| document.documentElement.scrollTop > 100) {
-    document.getElementById("left").style.transform = "translate(0)";
-    document.getElementById("right").style.transform = "translate(0)";
-    document.getElementById("line1").style.transform ="translate(0) scale(1)"
-    document.getElementById("line1").style.opacity="0";
-    document.getElementById("line2").style.transform ="translate(0) scale(1)"
-    document.getElementById("line2").style.opacity="0";
+  if (document.body.scrollTop > 50|| document.documentElement.scrollTop >50) {
+    document.getElementById("left").classList.add("left-add");
+    document.getElementById("right").classList.add("right-add");
+    document.getElementById("line1").classList.add("line1-add");
+    document.getElementById("line2").classList.add("line2-add");
+    document.getElementById("right-nav").classList.add("right-nav-add");
+    document.getElementById("left-nav").classList.add("left-nav-add");
+    document.getElementById("image-logo").classList.add("logo-add");
+    document.getElementById("lining").classList.add("lining-add");
+    document.getElementById("collar-button").classList.add("collar-button-add");
   } else {
-    document.getElementById("left").style.transform = "translate(132px, -26px) rotate(45deg)";
-    document.getElementById("right").style.transform = "translate(-132px, -26px) rotate(-45deg)";
-    document.getElementById("line1").style.transform=" translate(195px, -40px) rotate(-26deg) "
-    
-    document.getElementById("line1").style.opacity ="1";
-    document.getElementById("line2").style. transform=" translate(-195px ,-40px) rotate(26deg) "
-    document.getElementById("line2").style.opacity ="1";
+    document.getElementById("left").classList.remove("left-add");
+    document.getElementById("right").classList.remove("right-add");
+    document.getElementById("line1").classList.remove("line1-add");
+    document.getElementById("line2").classList.remove("line2-add");
+    document.getElementById("right-nav").classList.remove("right-nav-add");
+    document.getElementById("left-nav").classList.remove("left-nav-add");
+    document.getElementById("image-logo").classList.remove("logo-add");
+    document.getElementById("lining").classList.remove("lining-add");
+    document.getElementById("collar-button").classList.remove("collar-button-add");
   }
 }
 
