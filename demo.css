@@ -263,6 +263,7 @@ transition: 1s all;
     padding: 6px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 90px;
 }
 
 .final-aboutus .about-us {
@@ -454,27 +455,38 @@ transition: 1s all;
 
 
 /* Product */
+.pheading h1{
+    text-align: center;
+    padding: 19px;
+    margin: 30px;
+    font-size: 45px;
+    text-decoration: underline;
+    color: #a0241c;
+}
 .code-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     /* background-color: #D9DCD6; */
-    height: 100vh;
+   min-height: 80vh;
+    flex-wrap: wrap;
 }
 
 .code-wrapper .book {
-    height: 15rem;
-    width: 15rem;
+    height: 25rem;
+    width: 20rem;
     font-size: 1.4rem;
     box-shadow: 1rem 2rem 3rem rgba(#000, .25);
     text-align: center;
     position: relative;
     color: #484e4a;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
 }
 
 .code-wrapper .page {
     width: 100%;
-    height: 15rem;
+    height: 25rem;
     perspective: 1500px;
 }
 
@@ -491,6 +503,24 @@ transition: 1s all;
     transition: all 1s .3s;
     transform-origin: 0 50%;
     z-index: 2;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.code-wrapper .page__1 p{
+    position:absolute;
+    color: black;
+    font-weight:500;
+    top:0;
+    left:0;
+    width:100%;
+    height: 70%;
+    margin-top:200px;
+    margin-bottom: 15px;
+    padding:0 0 20px;
 }
 
 .code-wrapper .page__2 {
@@ -501,6 +531,49 @@ transition: 1s all;
     top: 0;
     left: 0;
     opacity: 1;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: rgba(146, 33, 23, 0.37) 0px 8px 32px 0px;
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    
+}
+.code-wrapper .page__2 img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 70%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.code-wrapper .page__2 p{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 70%;
+    margin-top:300px;
+    font-size: small;
+    margin-bottom: 15px;
+    padding:0 0 20px;
+}
+.code-wrapper .page__2 button{
+    position:absolute;
+    top:30px;
+    left:110px;  
+    height: 40px;
+    margin-top:320px;
+    border: none;
+    font-size: 12px;
+    background-color:#a0241c ;
+    border-radius: 6px;
+    padding:8px 16px;
+    color: white;
+}
+.code-wrapper .page__2 button:hover{
+    background-color: red;
+    color:black;
 }
 
 .code-wrapper .page:hover .page__1 {
@@ -524,7 +597,7 @@ transition: 1s all;
 .code-wrapper .book {
     margin-left: 10px;
     /* filter: blur(10px); */
-    border: 2px solid red;
+    /* border: 2px solid #a0241c; */
 }
 
 .code-wrapper .blur {
@@ -543,8 +616,10 @@ transition: 1s all;
 }
 
 .carousel-effect img {
-    margin: 31px 0px;
+    margin: 0px 0px 40px 0px;
     height: 260px;
+    border-radius: 1% !important;
+    height: 315px;
 }
 
 .carousel-effect .card-c {
@@ -557,11 +632,16 @@ transition: 1s all;
 }
 
 .carousel-effect .zoom {
-    padding: 50px;
+    padding: 30px;
     transition: transform .4s;
-    height: 550px;
+    height: 480px;
     margin: 20px 5px;
     overflow: hidden;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px ) !important;
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .carousel-effect .zoom:hover {
@@ -584,6 +664,7 @@ transition: 1s all;
     filter: blur(0px);
     transform: scale(1.1);
     margin-top: 20px;
+    background: #a0251c;
 }
 
 .carousel-effect .main-card:hover .owl-item {
