@@ -56,7 +56,7 @@ function carouselClose(num) {
     document.getElementById("image-logo").classList.remove("logo-add");
     document.getElementById("lining").classList.remove("lining-add");
     document.getElementById("collar-button").classList.remove("collar-button-add");
-    document.getElementById("back-collar").classList.add("back-collar-add");
+    document.getElementById("back-collar").classList.remove("back-collar-add");
   }
 }
 
