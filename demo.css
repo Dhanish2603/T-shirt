@@ -18,10 +18,20 @@
 }
 
 .main-container {
-    border: 20px solid #a0241c;
-    border-top: 0;
-    /* padding: 10px; */
-    margin: 2px;
+    /* top: 272px; */
+    /* position: relative; */
+    /* border: 20px solid #a0241c; */
+    /* border-top: none; */
+}
+.flex-class{
+    /* border: 1px solid red; */
+    /* display: flex;
+    justify-content: center;
+    min-width: min-content; */
+}
+.main-border{
+    /* border: 1px solid red; */
+    /* width: min-content; */
 }
 
 /* Nav Bar Header */
@@ -68,13 +78,13 @@
 .nav nav .left {
     position: relative;
     transform-origin: left;
-    transform: translate(126px, -26px) rotate(45deg);
+    transform: translate(126px, -21px) rotate(45deg);
     transition: 1s all;
-    box-shadow: 10px 8px 18px -2px rgb(109, 80, 80);
+    /* box-shadow: 4px 5px 6px 2px rgb(82, 82, 82,0.8); */
+    box-shadow: 3px 2px 11px 5px rgba(85, 85, 85, 0.8);
     background-color: #a0241c;
-    border-radius: 19px 15px 149px 69px;
+    border-radius: 8px 12px 15px 13px;
 }
-
 .nav nav .image {
     background: white;
     height: 80px;
@@ -89,10 +99,10 @@
 .nav nav .right {
     transition: 1s all;
     transform-origin: right;
-    transform: translate(-126px, -26px) rotate(-45deg);
-    box-shadow: -5px 7px 16px 2px rgb(107, 81, 81);
+    transform: translate(-126px, -21px) rotate(-46deg);
+    box-shadow: rgb(109 80 80 / 80%) -2px 2px 4px 5px;
     background-color: #a0241c;
-    border-radius: 15px 19px 69px 149px;
+    border-radius: 11px 9px 12px 15px
 }
 
 .line1,
@@ -104,13 +114,13 @@
     overflow: hidden;
     text-decoration: none;
     transition: 1s all;
-    box-shadow: 9px 9px 48px -5px rgb(34, 34, 34);
+    box-shadow: -4px 8px 38px 0px rgba(65, 65, 65, 0.9);
 }
 
 .line1 {
     height: 48px;
     transform-origin: right;
-    transform: translate(181px, -37px) rotate(-26deg);
+    transform: translate(188px, 17px) rotate(-32deg);
     padding: 4px 0px;
     min-width: 45em;
     opacity: 1;
@@ -118,7 +128,7 @@
 
 .line2 {
     height: 48px;
-    transform: translate(-181px, -37px) rotate(26deg);
+    transform: translate(-182px, 11px) rotate(32deg);
     transform-origin: left;
     padding: 4px 0px;
     min-width: 45em;
@@ -131,6 +141,22 @@
     justify-content: center;
     align-items: center;
     /* background-color: #a0241c ; */
+}
+/* back of collar */
+.back-collar{
+    box-shadow: 0px 1px 8px 7px rgb(75, 75, 75,0.7);
+    z-index: -2;
+    position: absolute;
+    border: 2px solid #a71c12;
+    height: 130px;
+    width: 37em;
+    background: #A71C12;
+
+}
+.back-collar-add{
+    background: none;
+    border: none;
+    box-shadow:none ;
 }
 
 /* left add js class  */
@@ -207,46 +233,68 @@
     position: relative !important;
     top: 19px;
     color: black;
-    box-shadow: 1px 6px 23px 4px rgb(105, 105, 105,0.6) ;
+    /* box-shadow: 1px 6px 23px 4px rgb(105, 105, 105,0.6) ; */
+    box-shadow: 0px 1px 18px 3px rgb(75, 75, 75,0.7);
     backdrop-filter:  blur(5px);
     width: 1500px !important;
 }
 
 
 /* collar button */
+.flexing{
+display: flex;
+    justify-content: center;
+    align-items: center;
+ /* min-width: 1112px; */
+ min-width: min-content;
+    
+
+}
 .collar-btn{
     display: flex;
-    /* flex-direction: row; */
+/* border: 2px solid red; */
     justify-content: center;
+    align-items: center;
+    min-width: 86rem;
 }
 .collar-button{
-    /* border: 1px solid red; */
-    position: fixed;
-    align-items: center;
+  
     z-index: 4;
     position: relative;
-    top: 288px;
+    top: 304px;
     height: 366px;
     width: 122px;
     background-color: #a71c12;
     /* #59111C */
     border-radius: 0px 0px 0px 0px;
-    box-shadow: 0px 7px 21px 6px rgb(70 70 70 / 74%)
+    box-shadow: 0px 1px 8px 5px rgb(70 70 70 / 74%);
+    
+    
 }
 .collar-button ul{
+    
     text-align: center;
+    height: 420px;
+    flex-direction: column;
+    padding: 0px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 511px;
-    flex-direction: column;
+
     
 }
 .collar-button ul li{
     list-style: none;
     padding: 0px 0px;
     margin: 41px 12px;
+    font-weight: 10px;
     
+}
+.collar-button ul li img{
+    border-radius: 50px;
+    box-shadow: 0px 1px 8px 5px rgb(70 70 70 / 74%);
+    height: 60px;
+    width: 59px;
 }
 /* collar button js add  */
 .collar-button-add{

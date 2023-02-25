@@ -45,6 +45,7 @@ function carouselClose(num) {
     document.getElementById("image-logo").classList.add("logo-add");
     document.getElementById("lining").classList.add("lining-add");
     document.getElementById("collar-button").classList.add("collar-button-add");
+    document.getElementById("back-collar").classList.add("back-collar-add");
   } else {
     document.getElementById("left").classList.remove("left-add");
     document.getElementById("right").classList.remove("right-add");
@@ -55,6 +56,7 @@ function carouselClose(num) {
     document.getElementById("image-logo").classList.remove("logo-add");
     document.getElementById("lining").classList.remove("lining-add");
     document.getElementById("collar-button").classList.remove("collar-button-add");
+    document.getElementById("back-collar").classList.add("back-collar-add");
   }
 }
 
