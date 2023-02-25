@@ -270,6 +270,7 @@ transition: 1s all;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 
 .final-aboutus .heading h1 {
