@@ -28,7 +28,7 @@
     <!-- Navbar -->
     
     <section class="nav">
-      <nav>
+      <nav class="nav-part-1">
         <div class="line1" id="line1">heloo</div>
         <div class="lining" id="lining">
           <div class="back-collar" id="back-collar">
@@ -36,8 +36,8 @@
           </div>
           <div class="left" id="left">
             <ul class="left-nav" id="left-nav">
-              <li>Home</li>
-              <li>About Us</li>
+              <li><a href="#main-container"> Home</a></li>
+              <li><a href="#about">About Us</a></li>
             </ul>
           </div>
           <div class="image" id="image-logo">
@@ -45,14 +45,39 @@
           </div>
           <div class="right" id="right">
             <ul class="right-nav" id="right-nav">
-              <li>Product</li>
-              <li>Contact Us</li>
+              <li><a href="#product">Product</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li id="wp-hide" class="d-none"><a href=""><img src="./images/wp-logo.png" width="40px" height="40px" alt=""></a></li>
             </ul>
           </div>
         </div>
         <div class="line2" id="line2">hell02</div>
+  
+      </nav>
+
+      <nav class=" d-none nav-part-2 navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./Sau_Groups_Logo_R.png" height="50px" width="200px" alt=""></a>
+          <a class="navbar-brand" href="#"><img class="wp-hide" src="./images/wp-logo.png" height="40px" width="40px" alt=""></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">About Us</a>
+              <a class="nav-link active" aria-current="page" href="#">Products</a>
+              <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+
+            </div>
+          </div>
+        </div>
       </nav>
     </section>
+
+    
+
     <!-- collar button -->
     <div class="flexing">
       <div class="collar-btn">
@@ -71,7 +96,7 @@
       <div class="main-border">
         
         <!-- About Us -->
-         <section class="final-aboutus">
+         <section class="final-aboutus" id="about">
           <section class="heading">
             <h1>ABOUT US</h1>
           </section>
