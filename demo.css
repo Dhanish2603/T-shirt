@@ -540,9 +540,9 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .code-wrapper .page__2 img{
     position:absolute;
-    top:0;
+    top: 25px;
     left:0;
-    width:100%;
+    width:90%;
     height: 70%;
     border-radius: 10px;
     object-fit: cover;
