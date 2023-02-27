@@ -41,6 +41,18 @@
         margin: 0;
         padding: 0; 
     }
+    .bcollar{
+        justify-content: center;
+    }
+    .centering{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .card3{
+        margin-left: 0;
+    }
  }
 
 @media (max-width:768px) {
