@@ -1103,7 +1103,7 @@ label {
 }
 /* below collar */
 .bcollar{
-  border: 2px solid red;
+  /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
