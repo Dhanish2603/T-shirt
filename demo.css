@@ -22,9 +22,10 @@
 body{
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     /* background: linear-gradient(-45deg, #5AA033, #FFE900, #F77528, #38297F); */
-    background-size: 400% 1100%;
+    /* background-size: 400% 1100%; */
     animation: gradient 10s ease infinite;
-    height: 100vh;
+    /* height: 100vh; */
+    overflow-x: hidden;
   }
   
   @keyframes gradient {
@@ -39,6 +40,7 @@ body{
       }
   }
 
+
 .main-container {
     /* top: 272px; */
     /* position: relative; */
@@ -46,16 +48,17 @@ body{
     /* border-top: none; */
 }
 .flex-class{
-    /* border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
-    min-width: min-content; */
+    /* min-width: min-content; */
 }
 .main-border{
-    /* border: 38px solid rgb(255, 255, 255);  */
+    border: 30px solid rgb(255, 255, 255); 
     border-top: none;
      /* width: min-content; */
-     margin: 0px 25px;
+     width: 100%;
+     /* margin: 0px 25px; */
 }
 
 /* Nav Bar Header */
@@ -264,7 +267,7 @@ color: black;
     /* box-shadow: 1px 6px 23px 4px rgb(105, 105, 105,0.6) ; */
     box-shadow: 0px 1px 18px 3px rgb(75, 75, 75,0.7);
     backdrop-filter:  blur(5px);
-    width: 1500px !important;
+    /* width: 1500px !important; */
 }
 
 
