@@ -88,3 +88,16 @@ $('.owl-carousel').owlCarousel({
     }
   }
 })
+
+
+// contact us button click footer
+
+function toggle(n){
+  if(n == 0){
+    document.getElementById("modalDialog").style.display="block";
+  }
+  else{
+    document.getElementById("modalDialog").style.display="none";
+
+  }
+}

@@ -26,6 +26,7 @@ body{
     animation: gradient 10s ease infinite;
     /* height: 100vh; */
     overflow-x: hidden;
+    /* margin: 5px; */
   }
   
   @keyframes gradient {
@@ -54,7 +55,7 @@ body{
     /* min-width: min-content; */
 }
 .main-border{
-    border: 30px solid rgb(255, 255, 255); 
+    border: 25px solid rgb(255, 255, 255); 
     border-top: none;
      /* width: min-content; */
      width: 100%;
@@ -360,7 +361,7 @@ transition: 0.6s all;
 .final-aboutus .about-us {
     /* background-color: white; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
 }
@@ -406,7 +407,7 @@ transition: 0.6s all;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 179px;
+    /* margin-left: 179px; */
     width: 612px;
     height: 450px;
     margin-top: 71px;
@@ -879,7 +880,7 @@ footer{
 }
 
 
-.bottom center{
+.bottom .center{
   padding: 5px;
   font-size: 0.9375rem;
   background: #151515;
