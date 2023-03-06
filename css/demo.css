@@ -99,7 +99,7 @@ body{
 }
 
 .nav nav ul li {
-    padding: 21px 45px;
+    padding: 21px 30px;
     cursor: pointer;
 }
 .nav  nav ul li a{
@@ -1130,10 +1130,10 @@ label {
 /* review section */
 
 .card3 {
-  width: 471px;
-  height: 367px;
+  width: 573px;
+  height: 390px;
   margin-left: 90px;
-  min-height: 256px;
+  min-height: 400px;
   background: rgba( 255, 255, 255, 0.15 );
   box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
   backdrop-filter: blur( 18px );
@@ -1254,24 +1254,24 @@ label {
 .centering{
   
 }
-  .card4 {
-     backdrop-filter: blur(10px);
-    background: rgba(252, 246, 246, 0.3);
-    border-radius:20px ;
-    /* background: transparent; */
-    height: 370px;
-    width: 100%;
-   /* border: 2px solid red; */
-   /* height: min-content; */
-   display: flex;
-   flex-direction: column-reverse;
-   width: 200px;
-   justify-content: center;
-   align-items: center;
-   box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
-   margin-right: 90px;
+.card4 {
+  backdrop-filter: blur(10px);
+ background: rgba(252, 246, 246, 0.3);
+ border-radius:20px ;
+ /* background: transparent; */
+ height: 370px;
+ width: 100%;
+/* border: 2px solid red; */
+/* height: min-content; */
+display: flex;
+flex-direction: column-reverse;
+width: 350px;
+justify-content: center;
+align-items: center;
+box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+margin-right: 90px;
 
-   }
+}
 .card4 img{
   background: rgba(252, 246, 246, 0.3);
   backdrop-filter: blur(30px);
