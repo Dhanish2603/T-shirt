@@ -63,7 +63,7 @@ body{
 }
 
 .main-border {
-  border: 25px solid rgb(255, 255, 255);
+  border: 25px solid red;
   border-top: none;
   /* width: min-content; */
   width: 100%;
@@ -983,22 +983,25 @@ footer {
 }
 
 
-.bottom .center {
+.bottom .center-text {
   padding: 5px;
   font-size: 0.9375rem;
   background: #151515;
 }
+.center-text{
+  background-color: black;
+}
 
-.bottom center span {
+.bottom .center-text span {
   color: #656565;
 }
 
-.bottom center a {
+.bottom .center-text a {
   color: #f12020;
   text-decoration: none;
 }
 
-.bottom center a:hover {
+.bottom .center-text a:hover {
   text-decoration: underline;
 }
 
