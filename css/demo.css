@@ -12,24 +12,25 @@
 :root{
     --whitecollar:white;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
+
+
+
 
 body{
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     /* background: linear-gradient(-45deg, #5AA033, #FFE900, #F77528, #38297F); */
     /* background-size: 400% 1100%; */
-    animation: gradient 10s ease infinite;
+    /* animation: gradient 10s ease infinite;
     /* height: 100vh; */
-    overflow-x: hidden;
-    /* margin: 5px; */
+    /* overflow-x: hidden;
+    margin: 5px; */ 
+   background-image: url(../annie-spratt-im8y4BO2hso-unsplash.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
   }
   
-  @keyframes gradient {
+  /* @keyframes gradient {
       0% {
           background-position: 0% 50%;
       }
@@ -39,7 +40,7 @@ body{
       100% {
           background-position: 0% 50%;
       }
-  }
+  } */
 
 
 .main-container {
