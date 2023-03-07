@@ -137,6 +137,9 @@
         /* border: 10px solid black;
         z-index: 99; */
     }
+    .flex-class{
+        border: 10px solid red;
+    }
     .main-border {
         border: none;
     }
@@ -184,6 +187,7 @@
     .bcollar {
         position: relative;
         top: 210px;
+        margin-bottom: 200px;
     }
 
     .main-border {
@@ -199,7 +203,10 @@
 
     footer{
         position: relative;
-        top: 195px;
+        /* top: 195px; */
+    }
+    .p-info{
+        margin-bottom: 225px;
     }
     /* .collar-adding{
         display: flex;
