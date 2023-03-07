@@ -205,6 +205,9 @@
         position: relative;
         /* top: 195px; */
     }
+    .p-info{
+        margin-bottom: 225px;
+    }
     /* .collar-adding{
         display: flex;
         justify-content: center;
