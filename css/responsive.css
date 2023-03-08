@@ -141,7 +141,8 @@
         border: 10px solid white;
     }
     .main-border {
-        border: none;
+        border: 15px solid white;
+        padding: 4px;
     }
     .collar-button{
         display: none;
@@ -149,7 +150,7 @@
 
     .final-aboutus {
         position: relative;
-        top: 11rem;
+        top: 5rem;
         padding: 0;
     }
 
@@ -190,16 +191,22 @@
         top: 210px;
         margin-bottom: 200px;
     }
-
-    .main-border {
-        margin-top: 115px;
+    .flex-class{
+        border: none !important;
+        position: relative;
+        top: 75px;
         background: url(../images/20230304_193132_0000.png) no-repeat !important;
         background-size: 100% !important;
+    }
+    .main-border {
+        margin-top: 115px;
+        animation: none;
         z-index: -1;
     }
     .product-main{
         position: relative;
         top: 200px;
+    margin-bottom: 238px;
     }
 
     footer{
@@ -212,7 +219,7 @@
     .side-button{
         display: flex;
         position: relative;
-        top: 115px;
+        top: 35px;
         
     }
     .side-button ul{
@@ -242,7 +249,7 @@
 @media (max-width:410px) {
     .side-button{
         position: relative;
-        top: 90px;     
+        top: -9px;     
     }
     .box .content:before{
         width: 70%;
@@ -254,7 +261,7 @@
 
     .final-aboutus {
         position: relative;
-        top: 2%;
+        top: 0%;
     }
     .final-aboutus .slide1{
         width: auto !important;

@@ -29,13 +29,14 @@ body{
     /* overflow-x: hidden;
     margin: 5px; */ 
     padding: 0 10px;
-    background: url(../annie-spratt-im8y4BO2hso-unsplash.jpg);
-    /* background-image: url(../blue.jpg); */
+    /* background: url(../annie-spratt-im8y4BO2hso-unsplash.jpg); */
+    background-image: url(../blue.jpg);
     /* background-image: url(../WhatsApp\ Image\ 2023-03-07\ at\ 22.56.50.jpeg); */
     /* background-image: url(../red-sports-clothing-fabric-football-600w-1641708736.webp); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    
     
   }
   
@@ -66,13 +67,38 @@ body{
 
 .main-border {
   border: 25px solid white;
-  border-top: none;
+  
   /* width: min-content; */
   width: 100%;
+  border-top: none !important;
+  animation: 2s main-border infinite;
   /* margin: 0px 25px; */
 }
 
 /* animation */
+@keyframes main-border {
+  0%{
+    border: 25px solid green;
+    border-color: green;
+  }
+  25%{
+    border: 25px solid red;
+    border-color: red;
+  }
+  50%{
+    border: 25px solid yellow;
+    border-color: yellow;
+  }
+  75%{
+    border: 25px solid black;
+    border-color: black;
+  }
+  100%{
+    border: 25px solid blue;
+    border-color: blue;
+  }
+}
+
 @keyframes border-animate {
     0%{
       border: 5px solid green;
@@ -156,7 +182,7 @@ body{
 }
 
 .nav nav .image {
-  height: 80px;
+  height: 100%;
   width: 100px;
 }
 
@@ -192,15 +218,17 @@ body{
   overflow: hidden;
   text-decoration: none;
   transition: 1s all;
+  border: 5px solid red;
+  animation: 2s border-animate infinite;
   box-shadow: -4px 8px 38px 0px rgba(65, 65, 65, 0.9);
 }
 
 .line1 {
   height: 48px;
   transform-origin: right;
-  transform: translate(188px, 17px) rotate(-32deg);
+  transform: translate(182px, 11px) rotate(-32deg);
   padding: 4px 0px;
-  min-width: 45em;
+  min-width: 34em;
   opacity: 1;
 }
 
@@ -209,7 +237,7 @@ body{
   transform: translate(-182px, 11px) rotate(32deg);
   transform-origin: left;
   padding: 4px 0px;
-  min-width: 45em;
+  min-width: 33em;
   opacity: 1;
 
 }
@@ -229,6 +257,8 @@ body{
   border: 2px solid #a71c12;
   height: 130px;
   width: 37em;
+  border: 5px solid red;
+  animation: 2s border-animate infinite;
   background: var(--whitecollar);
 
 }
@@ -236,6 +266,7 @@ body{
 .back-collar-add {
   background: none;
   border: none;
+  animation: none !important;
   box-shadow: none;
 }
 
@@ -250,7 +281,8 @@ body{
   padding: 0px !important;
   position: relative !important;
   top: 0px;
-  border-radius: 20px !important;
+  /* border-radius: 20px !important; */
+  border-right: none !important;
   box-shadow: 0px 0px 0px 0px !important;
 }
 
@@ -265,7 +297,8 @@ body{
   padding: 0px !important;
   position: relative !important;
   top: 0px;
-  border-radius: 20px !important;
+  /* border-radius: 20px !important; */
+  border-left: none !important;
   box-shadow: 0px 0px 0px 0px !important;
 
 
@@ -340,7 +373,7 @@ body{
 }
 
 .collar-button {
-
+animation: 2s border-animate infinite ;
   z-index: 4;
   position: relative;
   top: 304px;
@@ -626,7 +659,7 @@ body{
   text-align: center;
   padding: 19px;
   margin: 0px 0px;
-  margin-bottom: 81px;
+  /* margin-bottom: 81px; */
   font-size: 45px;
   text-decoration: underline;
   color: #a0241c;
@@ -871,7 +904,10 @@ body{
   margin-bottom: 50px;
   height: auto;
   font-family: system-ui;
-  background-color: #a71c12;
+  background: url(../annie-spratt-im8y4BO2hso-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -917,7 +953,10 @@ color: white;
 
 footer {
   width: 100%;
-  background: #a0251c;
+  background: url(../annie-spratt-im8y4BO2hso-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
   color: white;
 }
 
