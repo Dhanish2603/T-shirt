@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="./css/owl.theme.default.min.css">
   <link rel="stylesheet" href="./css/demo.css">
   <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="./css/aos.css">
   <script src="script.js" defer></script>
 </head>
 
@@ -101,14 +102,14 @@
         </div>
 
          <!-- About Us -->
-         <section class="final-aboutus" id="about">
-          <div class="main-head-aboutus">
+         <section class="final-aboutus"  id="about">
+          <div class="main-head-aboutus" data-aos="fade-left" data-duration-aos="2000">
            <h2>About Us</h2>
           </div>
           
-          <section class="about-us">
+          <section class="about-us" data-aos="fade-right" data-duration-aos="2000">
 
-            <div class="info">
+            <div class="info" data-aos="fade-left" data-duration-aos="2000">
               
               <h1>HEADING</h1>
               <i>SINCE 2002.</i>
@@ -158,7 +159,7 @@
         <!-- below collar -->
         <!-- qr card ends -->
         <section class="product-main">
-          <div  class="p-info">
+          <div  class="p-info" data-aos="zoom-in" data-duration-aos="2000">
             <div class="p-info-flex">
               <h3 class=" p-info-head">
                 Got an Incredible Tshirt Right Now?
@@ -172,7 +173,7 @@
             </button>
           </div>
         <!-- Product User -->
-        <div class="pheading" id="product1">
+        <div class="pheading" id="product1" data-aos="fade-left" data-duration-aos="2000">
           <h1>Our Products</h1>
           <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem quae officia delectus 
         commodi eaque non autem nulla explicabo ab facilis
@@ -180,7 +181,7 @@
         </div>
         <div class="code-wrapper d-flex justify-content-center" id="body">
 
-          <div class="book">
+          <div class="book" data-aos="flip-left" data-duration-aos="2000">
             <div class="page">
               <!-- <div class="page__1">
                 <p></p>
@@ -193,7 +194,7 @@
               </div>
             </div>
           </div>
-          <div class="carousel-effect carousel ">
+          <div class="carousel-effect carousel" >
             <button class="close" onclick="carouselClose(0)">X</button>
             <div class=" owl-carousel owl-theme main-card ">
 
@@ -236,7 +237,7 @@
               </div>
             </div>
           </div>
-          <div class="book">
+          <div class="book" data-aos="flip-down" data-duration-aos="2000">
             <div class="page">
               <!-- <div class="page__1">
                 <p></p>
@@ -292,7 +293,7 @@
               </div>
             </div>
           </div>
-          <div class="book">
+          <div class="book" data-aos="flip-up" data-duration-aos="2000">
             <div class="page">
               <!-- <div class="page__1">
                 <p></p>
@@ -347,7 +348,7 @@
               </div>
             </div>
           </div>
-          <div class="book">
+          <div class="book" data-aos="flip-right" data-duration-aos="2000">
             <div class="page">
               <!-- <div class="page__1">
                 <p></p>
@@ -520,4 +521,8 @@
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> -->
 <script src="./js/owl.carousel.min.js"></script>
 <script src="./js/main.js"></script>
+<script src="./js/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </html>

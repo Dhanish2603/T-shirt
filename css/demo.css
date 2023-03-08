@@ -39,7 +39,9 @@ body{
     
     
   }
-  
+  .main-container{
+    overflow-x: hidden;
+  }
   @keyframes gradient {
       0% {
           background-position: 0% 50%;
@@ -234,7 +236,7 @@ body{
 
 .line2 {
   height: 48px;
-  transform: translate(-182px, 11px) rotate(32deg);
+  transform: translate(-182px, 11px) rotate(35deg);
   transform-origin: left;
   padding: 4px 0px;
   min-width: 33em;
