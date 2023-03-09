@@ -177,7 +177,11 @@ body{
   transition: 0.6s all;
   /* box-shadow: 4px 5px 6px 2px rgb(82, 82, 82,0.8); */
   box-shadow: 3px 2px 11px 5px rgba(85, 85, 85, 0.8);
-  background-color: var(--whitecollar);
+  /* background-color: var(--whitecollar); */
+  background: url(../images/collor_light.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
   border-radius: 8px 12px 15px 13px;
   border: 5px solid red;
   animation: 2s border-animate infinite;
@@ -205,7 +209,11 @@ body{
   transform-origin: right;
   transform: translate(-124px, -21px) rotate(-45deg);
   box-shadow: rgb(109 80 80 / 80%) -2px 2px 4px 5px;
-  background-color: var(--whitecollar);
+  /* background-color: var(--whitecollar); */
+  background: url(../images/collor_light.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
   border-radius: 11px 9px 12px 15px;
   border: 5px solid red;
   animation: 2s border-animate infinite;
@@ -213,7 +221,11 @@ body{
 
 .line1,
 .line2 {
-  background-color: var(--whitecollar);
+  /* background-color: var(--whitecollar); */
+  background: url(../images/collor_light.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
   width: 100%;
   z-index: -1;
   text-indent: 100%;
@@ -261,7 +273,11 @@ body{
   width: 37em;
   border: 5px solid red;
   animation: 2s border-animate infinite;
-  background: var(--whitecollar);
+  /* background: var(--whitecollar); */
+  background: url(../images/collor_light.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 
 }
 
@@ -381,7 +397,11 @@ animation: 2s border-animate infinite ;
   top: 304px;
   height: 366px;
   width: 122px;
-  background-color: var(--whitecollar);
+  /* background-color: var(--whitecollar); */
+  background: url(../images/collor_light.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
   /* #59111C */
   border-radius: 0px 0px 0px 0px;
   box-shadow: 0px 1px 8px 5px rgb(70 70 70 / 74%);
