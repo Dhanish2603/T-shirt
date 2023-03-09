@@ -8,7 +8,7 @@
   <title>Tshirt</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-  <link rel="stylesheet" href="./css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/owl.carousel.min.css">
   <link rel="stylesheet" href="./css/owl.theme.default.min.css">
   <link rel="stylesheet" href="./css/demo.css">
@@ -32,17 +32,25 @@
           </div>
           <div class="left" id="left">
             <ul class="left-nav" id="left-nav">
-              <li><a href="#main-container"><h5><b>HOME</b> </h5></a></li>
-              <li><a href="#about"><h5><b>ABOUT US</b> </h5></a></li>
+              <li><a href="#main-container">
+                  <h5><b id="b">HOME</b> </h5>
+                </a></li>
+              <li><a href="#about">
+                  <h5><b id="b-about">ABOUT US</b> </h5>
+                </a></li>
             </ul>
           </div>
-          <div class="image" id="image-logo">
+          <div class="image" id="image-logo" data-aos="zoom-in">
             <a class="navbar-brand" href="#main-container"> <img id="img-move" src="Sau_Groups_Logo_R.png" alt=""></a>
           </div>
           <div class="right" id="right">
             <ul class="right-nav" id="right-nav">
-              <li><a href="#product1"><h5><b>PRODUCTS</b> </h5></a></li>
-              <li><a href="#contactuss"><h5><b>CONTACT US</b> </h5></a></li>
+              <li><a href="#product1">
+                  <h5><b id="b-product">PRODUCTS</b> </h5>
+                </a></li>
+              <li><a href="#contactuss">
+                  <h5><b id="b-contact">CONTACT US</b> </h5>
+                </a></li>
               <li id="wp-hide" class="d-none"><a href="https://wa.me/917226934772" target="_blank"><img
                     src="./images/wp-logo.png" width="40px" height="40px" alt=""></a></li>
             </ul>
@@ -56,11 +64,11 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="#main-container"><img src="./Sau_Groups_Logo_R.png" height="50px" width="200px"
               alt=""></a>
-          
+
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon" >&#8801;</span>
+            <span class="navbar-toggler-icon">&#8801;</span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
@@ -72,7 +80,7 @@
             </div>
           </div>
         </div>
-      </nav> 
+      </nav>
     </section>
 
 
@@ -90,10 +98,10 @@
     </div>
 
     <!-- main-body -->
-    <div class="flex-class">  
+    <div class="flex-class">
 
       <div class="main-border ">
-        
+
         <div class="side-button" id="side-button">
           <ul>
             <li><a href="tel:917226934772" target="_blank"><img src="./images/phone-logo.png" alt=""></a></li>
@@ -101,28 +109,49 @@
           </ul>
         </div>
 
-         <!-- About Us -->
-         <section class="final-aboutus"  id="about">
-          <div class="main-head-aboutus" data-aos="fade-left" data-duration-aos="2000">
-           <h2>About Us</h2>
-          </div>
-          
+        <!-- About Us -->
+        <section class="final-aboutus" id="about">
           <section class="about-us" data-aos="fade-right" data-duration-aos="2000">
 
-            <div class="info" data-aos="fade-left" data-duration-aos="2000">
-              
-              <h1>HEADING</h1>
-              <i>SINCE 2002.</i>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque optio necessitatibus delectus
-                facere
-                ipsa dolorum! Cum repellat nihil fugit accusamus sed nobis iure fuga inventore.
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo saepe amet qui expedita odit tempore
-                veritatis unde vero quas exercitationem placeat sunt sit eligendi et, voluptas libero totam neque.
-                Aliquam!
-              </p>
-              <!-- <div class="blob"></div> -->
+            <div class="main-head-about-us">
+
+              <div class="main-head-aboutus" data-aos="fade-left" data-duration-aos="2000">
+                <h2 data-aos="fade-left" data-duration-aos="2000">About Us</h2>
+              </div>
+              <div id="info" class="info info-stan" data-aos="fade-left" data-duration-aos="5000">
+                <div id="overlay2"></div>
+                <div id="info-content">
+                  <h1 id="info-h1">TSHIRT COMPANY</h1>
+                  <strong id="info-h1-child">
+                    THE BIGGEST.
+                  </strong>
+                  <i id="info-h1-i">SINCE 2002.</i>
+                  <ol id="info-ol">
+                    <li>
+                      <h3>TSHIRT SLEEVE</h3>
+                      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, excepturi!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, excepturi!
+                      </p>
+                    </li>
+                    <li>
+                      <h3>TSHIRT SLEEVE</h3>
+                      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, excepturi!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, excepturi!
+                      </p>
+                    </li>
+                    <li>
+                      <h3>TSHIRT SLEEVE</h3>
+                      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, excepturi!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, excepturi!
+                      </p>
+                    </li>
+
+
+                  </ol>
+                </div>
+              </div>
             </div>
+            <!-- pocket slide -->
             <div class="cont">
               <div class="container" style="padding: 0;">
                 <div class="card" style="background-color: transparent !important;">
@@ -143,10 +172,9 @@
                       </div> -->
                       <div class='icon'>
                         <a href='#'>
-                        <img class='resize_fit_center'
-                          src='./download (1).png' />
+                          <img class='resize_fit_center' src='./download (1).png' />
                         </a>
-                    </div>
+                      </div>
                     </div>
 
                   </div>
@@ -155,18 +183,16 @@
               </div>
 
             </div>
-            
+
 
 
           </section>
-          
         </section>
-        
         <!-- border tshirt -->
         <!-- below collar -->
         <!-- qr card ends -->
         <section class="product-main">
-          <div  class="p-info" data-aos="zoom-in" data-duration-aos="2000">
+          <div class="p-info" data-aos="zoom-in" data-duration-aos="2000">
             <div class="p-info-flex">
               <h3 class=" p-info-head">
                 Got an Incredible Tshirt Right Now?
@@ -175,307 +201,309 @@
                 Keep your chin up
               </span>
             </div>
-            <button id="myPtn" class="btn btn-primary turned-button myPtn" >
+            <button id="myPtn" class="btn btn-primary turned-button myPtn">
               GET IN TOUCH
             </button>
-            
-          </div>
-               <!-- The Modal -->
-              <div id="myModal" class="modal">
-                <div class="modal-content animate-top">
-                  <div class="modal-header">
-                    <h5 class="modal-title">Contact Us</h5>
-                    <button type="button" class="close1" data-dismiss="modal" aria-label="Close">
-                      <span  class="close1" aria-hidden="true">×</span>
-                    </button>
-                  </div>
-                  <form method="post" id="contactFrm">
-                    <div class="modal-body">
-                      <!-- Form submission status -->
-                      <div class="response"></div>
 
-                      <!-- Contact form -->
-                      <div class="form-group">
-                        <label>Name:</label>
-                        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name"
-                          required="">
-                      </div>
-                      <div class="form-group">
-                        <label>Email:</label>
-                        <input type="email" name="email" id="email" class="form-control"
-                          placeholder="Enter your email" required="">
-                      </div>
-                      <div class="form-group">
-                        <label>Message:</label>
-                        <textarea name="message" id="message" class="form-control" placeholder="Your message here"
-                          rows="6"></textarea>
-                      </div>
-                    </div>
-                    <div class="modal-footer">
-                      <!-- Submit button -->
-                      <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
-                  </form>
-                </div>
+          </div>
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+            <div class="modal-content animate-top">
+              <div class="modal-header">
+                <h5 class="modal-title">Contact Us</h5>
+                <button type="button" class="close1" data-dismiss="modal" aria-label="Close">
+                  <span class="close1" aria-hidden="true">×</span>
+                </button>
               </div>
-        <!-- Product User -->
-        <div class="pheading" id="product1" data-aos="fade-left" data-duration-aos="2000">
-          <h1>Our Products</h1>
-          <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem quae officia delectus 
+              <form method="post" id="contactFrm">
+                <div class="modal-body">
+                  <!-- Form submission status -->
+                  <div class="response"></div>
+
+                  <!-- Contact form -->
+                  <div class="form-group">
+                    <label>Name:</label>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name"
+                      required="">
+                  </div>
+                  <div class="form-group">
+                    <label>Email:</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email"
+                      required="">
+                  </div>
+                  <div class="form-group">
+                    <label>Message:</label>
+                    <textarea name="message" id="message" class="form-control" placeholder="Your message here"
+                      rows="6"></textarea>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- Product User -->
+          <div class="pheading" id="product1" data-aos="fade-left" data-duration-aos="2000">
+            <h1>Our Products</h1>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem quae officia delectus 
         commodi eaque non autem nulla explicabo ab facilis
          ex enim, at minima magni numquam odio dicta eligendi eveniet.</p> -->
-        </div>
-        <div class="code-wrapper d-flex justify-content-center" id="body">
+          </div>
+          <div class="code-wrapper d-flex justify-content-center" id="body">
 
-          <div class="book" data-aos="flip-left" data-duration-aos="2000">
-            <div class="page">
-              <!-- <div class="page__1">
+            <div class="book" data-aos="flip-left" data-duration-aos="2000">
+              <div class="page">
+                <!-- <div class="page__1">
                 <p></p>
               </div> -->
-              <div class="page__2">
-                <img src="images/Products_Photo/2.png">
-                <p>Men's Fitness T-Shirt 500 Essentials - Blue</p>
-                <button onclick="carouselToggle(0)">Show More</button>
-
-              </div>
-            </div>
-          </div>
-          <div class="carousel-effect carousel" >
-            <button class="close" onclick="carouselClose(0)">X</button>
-            <div class=" owl-carousel owl-theme main-card ">
-
-              <div class="card-c zoom">
-
-                <img src="images/Products_Photo/2.png" class="card-img-top rounded-circle" alt="...">
-                <div class="card-body d-flex flex-column justify-content-center">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
-
-                </div>
-              </div>
-              <div class="card-c zoom">
-                <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
-                <div class="card-body d-flex flex-column justify-content-center">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
-
-                </div>
-              </div>
-              <div class="card-c zoom">
-                <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
-                <div class="card-body d-flex flex-column justify-content-center">
-
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
-
-                </div>
-              </div>
-              <div class="card-c zoom">
-                <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
-                <div class="card-body d-flex flex-column justify-content-center">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
-
-                </div>
-              </div>
-              <div class="card-c zoom">
-                <img src="images/Products_Photo/5.png" class="card-img-top rounded-circle" alt="...">
-                <div class="card-body d-flex flex-column justify-content-center">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
+                <div class="page__2">
+                  <img src="images/Products_Photo/2.png">
+                  <p>Men's Fitness T-Shirt 500 Essentials - Blue</p>
+                  <button onclick="carouselToggle(0)">Show More</button>
 
                 </div>
               </div>
             </div>
-          </div>
-          <div class="book" data-aos="flip-down" data-duration-aos="2000">
-            <div class="page">
-              <!-- <div class="page__1">
+            <div class="carousel-effect carousel">
+              <button class="close" onclick="carouselClose(0)">X</button>
+              <div class=" owl-carousel owl-theme main-card ">
+
+                <div class="card-c zoom">
+
+                  <img src="images/Products_Photo/2.png" class="card-img-top rounded-circle" alt="...">
+                  <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
+
+                  </div>
+                </div>
+                <div class="card-c zoom">
+                  <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
+                  <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
+
+                  </div>
+                </div>
+                <div class="card-c zoom">
+                  <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
+                  <div class="card-body d-flex flex-column justify-content-center">
+
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
+
+                  </div>
+                </div>
+                <div class="card-c zoom">
+                  <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
+                  <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
+
+                  </div>
+                </div>
+                <div class="card-c zoom">
+                  <img src="images/Products_Photo/5.png" class="card-img-top rounded-circle" alt="...">
+                  <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="book" data-aos="flip-down" data-duration-aos="2000">
+              <div class="page">
+                <!-- <div class="page__1">
                 <p></p>
               </div> -->
-              <div class="page__2">
-                <img src="images/Products_Photo/2.png">
-                <p>Men's Fitness T-Shirt 500 Essentials - Blue.</p>
-                <button onclick="carouselToggle(1)">Show More</button>
-
-              </div>
-            </div>
-          </div>
-          <div class="carousel carousel-effect">
-            <button class="close" onclick="carouselClose(1)">X</button>
-            <div class=" owl-carousel owl-theme main-card ">
-
-              <div class="card-c zoom">
-
-                <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
-                <div class="card-body d-flex flex-column justify-content-center">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
-
-                </div>
-              </div>
-              <div class="card-c zoom">
-                <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
-                <div class="card-body d-flex flex-column justify-content-center">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
-
-                </div>
-              </div>
-              <div class="card-c zoom">
-                <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
-                <div class="card-body d-flex flex-column justify-content-center">
-
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
-
-                </div>
-              </div>
-              <div class="card-c zoom">
-                <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
-                <div class="card-body d-flex flex-column justify-content-center">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
-
-                </div>
-              </div>
-              <div class="card-c zoom">
-                <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
-                <div class="card-body d-flex flex-column justify-content-center">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
+                <div class="page__2">
+                  <img src="images/Products_Photo/2.png">
+                  <p>Men's Fitness T-Shirt 500 Essentials - Blue.</p>
+                  <button onclick="carouselToggle(1)">Show More</button>
 
                 </div>
               </div>
             </div>
-          </div>
-          <div class="book" data-aos="flip-up" data-duration-aos="2000">
-            <div class="page">
-              <!-- <div class="page__1">
+            <div class="carousel carousel-effect">
+              <button class="close" onclick="carouselClose(1)">X</button>
+              <div class=" owl-carousel owl-theme main-card ">
+
+                <div class="card-c zoom">
+
+                  <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
+                  <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
+
+                  </div>
+                </div>
+                <div class="card-c zoom">
+                  <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
+                  <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
+
+                  </div>
+                </div>
+                <div class="card-c zoom">
+                  <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
+                  <div class="card-body d-flex flex-column justify-content-center">
+
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
+
+                  </div>
+                </div>
+                <div class="card-c zoom">
+                  <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
+                  <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
+
+                  </div>
+                </div>
+                <div class="card-c zoom">
+                  <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
+                  <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="book" data-aos="flip-up" data-duration-aos="2000">
+              <div class="page">
+                <!-- <div class="page__1">
                 <p></p>
               </div> -->
-              <div class="page__2">
-                <img src="images/Products_Photo/10.png">
-                <p>Men's Fitness T-Shirt 500 Essentials - Blue</p>
-                <button onclick="carouselToggle(2)">Show More</button>
-              </div>
-            </div>
-          </div>
-          <div class="carousel carousel-effect">
-            <button class="close" onclick="carouselClose(2)">X</button>
-            <div class=" owl-carousel owl-theme main-card ">
-
-              <div class="card-c zoom">
-
-                <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
-                <div class="card-body d-flex flex-column justify-content-center">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
-
-                </div>
-              </div>
-              <div class="card-c zoom">
-                <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
-                <div class="card-body d-flex flex-column justify-content-center">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
-
-                </div>
-              </div>
-              <div class="card-c zoom">
-                <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
-                <div class="card-body d-flex flex-column justify-content-center">
-
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
-
-                </div>
-              </div>
-              <div class="card-c zoom">
-                <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
-                <div class="card-body d-flex flex-column justify-content-center">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
-
-                </div>
-              </div>
-              <div class="card-c zoom">
-                <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
-                <div class="card-body d-flex flex-column justify-content-center">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
-
+                <div class="page__2">
+                  <img src="images/Products_Photo/10.png">
+                  <p>Men's Fitness T-Shirt 500 Essentials - Blue</p>
+                  <button onclick="carouselToggle(2)">Show More</button>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="book" data-aos="flip-right" data-duration-aos="2000">
-            <div class="page">
-              <!-- <div class="page__1">
+            <div class="carousel carousel-effect">
+              <button class="close" onclick="carouselClose(2)">X</button>
+              <div class=" owl-carousel owl-theme main-card ">
+
+                <div class="card-c zoom">
+
+                  <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
+                  <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
+
+                  </div>
+                </div>
+                <div class="card-c zoom">
+                  <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
+                  <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
+
+                  </div>
+                </div>
+                <div class="card-c zoom">
+                  <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
+                  <div class="card-body d-flex flex-column justify-content-center">
+
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
+
+                  </div>
+                </div>
+                <div class="card-c zoom">
+                  <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
+                  <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
+
+                  </div>
+                </div>
+                <div class="card-c zoom">
+                  <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
+                  <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="book" data-aos="flip-right" data-duration-aos="2000">
+              <div class="page">
+                <!-- <div class="page__1">
                 <p></p>
               </div> -->
-              <div class="page__2">
-                <img src="images/Products_Photo/6.png">
-                <p>Men's Fitness T-Shirt 500 Essentials - Blue</p>
-                <button onclick="carouselToggle(3)">Show More</button>
-              </div>
-            </div>
-          </div>
-          <div class="carousel carousel-effect">
-            <button class="close" onclick="carouselClose(3)">X</button>
-            <div class=" owl-carousel owl-theme main-card ">
-
-              <div class="card-c zoom">
-
-                <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
-                <div class="card-body d-flex flex-column justify-content-center">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
-
-                </div>
-              </div>
-              <div class="card-c zoom">
-                <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
-                <div class="card-body d-flex flex-column justify-content-center">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
-
-                </div>
-              </div>
-              <div class="card-c zoom">
-                <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
-                <div class="card-body d-flex flex-column justify-content-center">
-
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
-
-                </div>
-              </div>
-              <div class="card-c zoom">
-                <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
-                <div class="card-body d-flex flex-column justify-content-center">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
-
-                </div>
-              </div>
-              <div class="card-c zoom">
-                <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
-                <div class="card-body d-flex flex-column justify-content-center">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
-
+                <div class="page__2">
+                  <img src="images/Products_Photo/6.png">
+                  <p>Men's Fitness T-Shirt 500 Essentials - Blue</p>
+                  <button onclick="carouselToggle(3)">Show More</button>
                 </div>
               </div>
             </div>
-          </div>
+            <div class="carousel carousel-effect">
+              <button class="close" onclick="carouselClose(3)">X</button>
+              <div class=" owl-carousel owl-theme main-card ">
 
-          
-         
-        </div>
-      </section>
-      <section>
-        <div class="card3">
-          <div class="header3">
-            <span class="title3">
-              What others think about the product
-            </span>
-            <div class="average-rating-section">
-              <div class="average-rating">
-                <svg class="star-icon" viewBox="0 0 43 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path class="icon-path" d="M21.1363 1.42392C21.2826 1.11848 21.7174 1.11848 21.8637 1.42392L27.2274 12.6267C27.4958 13.1871 28.0288 13.5743 28.6447 13.6564L40.9566 15.2958C41.2923 15.3405 41.4267 15.754 41.1814 15.9875L32.1845 24.5506C31.7344 24.979 31.5308 25.6056 31.6431 26.2167L33.8885 38.4326C33.9497 38.7657 33.5979 39.0213 33.3001 38.8602L22.3759 32.9497C21.8294 32.654 21.1706 32.654 20.6241 32.9497L9.6999 38.8602C9.40205 39.0213 9.05025 38.7657 9.11147 38.4326L11.3569 26.2167C11.4692 25.6056 11.2656 24.979 10.8155 24.5506L1.81861 15.9875C1.57331 15.754 1.70768 15.3405 2.04336 15.2958L14.3553 13.6564C14.9712 13.5743 15.5042 13.1871 15.7726 12.6267L21.1363 1.42392Z" stroke-width="1.4375" />
-                </svg>
-                <div data-average-review></div>
+                <div class="card-c zoom">
+
+                  <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
+                  <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
+
+                  </div>
+                </div>
+                <div class="card-c zoom">
+                  <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
+                  <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
+
+                  </div>
+                </div>
+                <div class="card-c zoom">
+                  <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
+                  <div class="card-body d-flex flex-column justify-content-center">
+
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
+
+                  </div>
+                </div>
+                <div class="card-c zoom">
+                  <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
+                  <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
+
+                  </div>
+                </div>
+                <div class="card-c zoom">
+                  <img src="images/Products_Photo/1.png" class="card-img-top rounded-circle" alt="...">
+                  <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempora.</p>
+
+                  </div>
+                </div>
               </div>
-              Average customer rating
+            </div>
+
+
+
+          </div>
+        </section>
+        <section>
+          <div class="card3">
+            <div class="header3">
+              <span class="title3">
+                What others think about the product
+              </span>
+              <div class="average-rating-section">
+                <div class="average-rating">
+                  <svg class="star-icon" viewBox="0 0 43 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="icon-path"
+                      d="M21.1363 1.42392C21.2826 1.11848 21.7174 1.11848 21.8637 1.42392L27.2274 12.6267C27.4958 13.1871 28.0288 13.5743 28.6447 13.6564L40.9566 15.2958C41.2923 15.3405 41.4267 15.754 41.1814 15.9875L32.1845 24.5506C31.7344 24.979 31.5308 25.6056 31.6431 26.2167L33.8885 38.4326C33.9497 38.7657 33.5979 39.0213 33.3001 38.8602L22.3759 32.9497C21.8294 32.654 21.1706 32.654 20.6241 32.9497L9.6999 38.8602C9.40205 39.0213 9.05025 38.7657 9.11147 38.4326L11.3569 26.2167C11.4692 25.6056 11.2656 24.979 10.8155 24.5506L1.81861 15.9875C1.57331 15.754 1.70768 15.3405 2.04336 15.2958L14.3553 13.6564C14.9712 13.5743 15.5042 13.1871 15.7726 12.6267L21.1363 1.42392Z"
+                      stroke-width="1.4375" />
+                  </svg>
+                  <div data-average-review></div>
+                </div>
+                Average customer rating
+              </div>
+            </div>
+            <div class="review-section">
+              <div class="review-title">Reviews</div>
+              <div class="review-rows"></div>
             </div>
           </div>
-          <div class="review-section">
-            <div class="review-title">Reviews</div>
-            <div class="review-rows"></div>
-          </div>
-        </div>
-      </section>
+        </section>
         <!-- Contact Us -->
         <footer>
           <div class="main-content" id="contactuss">
@@ -524,59 +552,59 @@
                   <h2>Lets Get Connected!!</h2>
 
                   <!-- Trigger/Open The Modal -->
-                  <button id="myPtn" class="btn btn-primary turned-button myPtn" >Contact Us</button>
+                  <button id="myPtn" class="btn btn-primary turned-button myPtn">Contact Us</button>
                   <!-- The Modal -->
-                <div id="myModal" class="modal">
-                  <div class="modal-content animate-top">
-                    <div class="modal-header">
-                      <h5 class="modal-title">Contact Us</h5>
-                      <button type="button" class="close1" data-dismiss="modal" aria-label="Close">
-                        <span  class="close1" aria-hidden="true">×</span>
-                      </button>
-                    </div>
-                    <form method="post" id="contactFrm">
-                      <div class="modal-body">
-                        <!-- Form submission status -->
-                        <div class="response"></div>
+                  <div id="myModal" class="modal">
+                    <div class="modal-content animate-top">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Contact Us</h5>
+                        <button type="button" class="close1" data-dismiss="modal" aria-label="Close">
+                          <span class="close1" aria-hidden="true">×</span>
+                        </button>
+                      </div>
+                      <form method="post" id="contactFrm">
+                        <div class="modal-body">
+                          <!-- Form submission status -->
+                          <div class="response"></div>
 
-                        <!-- Contact form -->
-                        <div class="form-group">
-                          <label>Name:</label>
-                          <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name"
-                            required="">
+                          <!-- Contact form -->
+                          <div class="form-group">
+                            <label>Name:</label>
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name"
+                              required="">
+                          </div>
+                          <div class="form-group">
+                            <label>Email:</label>
+                            <input type="email" name="email" id="email" class="form-control"
+                              placeholder="Enter your email" required="">
+                          </div>
+                          <div class="form-group">
+                            <label>Message:</label>
+                            <textarea name="message" id="message" class="form-control" placeholder="Your message here"
+                              rows="6"></textarea>
+                          </div>
                         </div>
-                        <div class="form-group">
-                          <label>Email:</label>
-                          <input type="email" name="email" id="email" class="form-control"
-                            placeholder="Enter your email" required="">
+                        <div class="modal-footer">
+                          <!-- Submit button -->
+                          <button type="submit" class="btn btn-primary">Submit</button>
                         </div>
-                        <div class="form-group">
-                          <label>Message:</label>
-                          <textarea name="message" id="message" class="form-control" placeholder="Your message here"
-                            rows="6"></textarea>
-                        </div>
-                      </div>
-                      <div class="modal-footer">
-                        <!-- Submit button -->
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                      </div>
-                    </form>
+                      </form>
+                    </div>
                   </div>
+
+
                 </div>
-                  
-               
-              </div>
               </div>
             </div>
           </div>
-          
+
         </footer>
       </div>
     </div>
     <div class="bottom">
-      <div class = "center-text">
+      <div class="center-text">
         <span class="credit">Created By <a href="#"><img src="./images/gradient.png" alt=""></a> | </span>
-        <span class="far fa-copyright line-height"> </span><span class ="line-height">  2023 All rights reserved.</span>
+        <span class="far fa-copyright line-height"> </span><span class="line-height"> 2023 All rights reserved.</span>
       </div>
     </div>
   </div>
@@ -594,4 +622,5 @@
 <script>
   AOS.init();
 </script>
+
 </html>
