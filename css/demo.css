@@ -29,18 +29,16 @@ body{
     /* overflow-x: hidden;
     margin: 5px; */ 
     padding: 0 10px;
-    /* background: url(../annie-spratt-im8y4BO2hso-unsplash.jpg); */
-    background-image: url(../blue.jpg);
-    /* background-image: url(../WhatsApp\ Image\ 2023-03-07\ at\ 22.56.50.jpeg); */
-    /* background-image: url(../red-sports-clothing-fabric-football-600w-1641708736.webp); */
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+   
     
     
   }
   .main-container{
     overflow-x: hidden;
+    background-image: url(../blue.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
   }
   @keyframes gradient {
       0% {
@@ -197,7 +195,7 @@ body{
   width: 100px;
   position: relative;
   transition: .5s all linear;
-  top: 115px;
+
 }
 
 .top-class {
@@ -300,7 +298,8 @@ body{
   position: relative !important;
   top: 0px;
   /* border-radius: 20px !important; */
-  border-right: none !important;
+  border: none !important ;
+  animation: none !important;
   box-shadow: 0px 0px 0px 0px !important;
 }
 
@@ -316,7 +315,8 @@ body{
   position: relative !important;
   top: 0px;
   /* border-radius: 20px !important; */
-  border-left: none !important;
+  border: none !important;
+  animation: none !important;
   box-shadow: 0px 0px 0px 0px !important;
 
 
@@ -342,7 +342,7 @@ body{
 
 /* left-nav-add */
 .left-nav-add {
-
+  animation: none !important;
   margin: 13px !important;
   padding: 10px !important;
   height: 65px !important;
