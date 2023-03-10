@@ -34,7 +34,7 @@ body{
     
   }
   .main-container{
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     background-image: url(../blue.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -800,6 +800,7 @@ color: #520000;
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: 60px;
 }
 .product-head{
 
