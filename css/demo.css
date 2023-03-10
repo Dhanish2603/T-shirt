@@ -1436,6 +1436,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 .header3 {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 0px;
   margin-bottom: 6px;

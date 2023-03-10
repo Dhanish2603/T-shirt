@@ -109,6 +109,7 @@
     }
     .card3 {
         margin-left: 0;
+        padding: 20px;
     }
 }
 
@@ -164,7 +165,7 @@
         padding:0px;
     }
     .main-border {
-        border: 15px solid white;
+        border: 15px solid red;
         padding: 4px;
     }
     .collar-button{
@@ -222,7 +223,7 @@
         background-size: 100% !important;
     }
     .main-border {
-        margin-top: 115px;
+        margin-top: 100px;
         animation: none;
         /* z-index: -1; */
     }
@@ -292,6 +293,10 @@
     .final-aboutus {
         position: relative;
         top: 0%;
+        margin: 0;
+    }
+    .about-us-desc{
+        padding:0.5rem;
     }
     .final-aboutus .slide1{
         width: auto !important;
