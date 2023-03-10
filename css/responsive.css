@@ -152,6 +152,10 @@
     }
     .flex-class{
         border: 10px solid white;
+        overflow-x: hidden;
+    }
+    .main-container{
+        padding: 0px;
     }
     .main-border {
         border: 15px solid white;
@@ -257,6 +261,10 @@
         height: 300px;
         width: 100%;
     } */
+    .bottom{
+        z-index: 0;
+        position: relative;
+    }
 }
 
 @media (max-width:410px) {
