@@ -794,7 +794,24 @@ color: #520000;
   padding: 0px 5px;
   padding-top: 50px;
 }
+.product-main-head{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.product-head{
 
+  border-radius: 13px;
+  width: 49%;
+  text-align: center;
+  /* border: 2px solid; */
+  font-size: 23px;
+  position: relative;
+  top: 61px;
+  box-shadow: 0px 0px 26px 3px #4141416c;
+  font-weight: bold;
+  color: #a71c12;
+}
 .pheading h1 {
   text-align: center;
   padding: 19px;
@@ -865,11 +882,10 @@ color: #520000;
   margin-bottom: 15px;
   padding: 0 0 20px;
 }
-
 .code-wrapper .page__2 {
   background-color: #BAA898;
   width: 100%;
-  height: 19.5em;
+  height: 404.5px;
   position: absolute;
   top: 0;
   left: 0;
@@ -879,6 +895,7 @@ color: #520000;
   backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 42px
 
 }
 
@@ -886,11 +903,13 @@ color: #520000;
   position: absolute;
   top: 10px;
   left: 0;
-  width: 90%;
-  height: 70%;
+  width: 80%;
+  height: 76%;
   border-radius: 10px;
   object-fit: cover;
-  margin: 0px 15px;
+  margin: -10px 36px;
+
+
 }
 
 .code-wrapper .page__2 p {
@@ -899,10 +918,10 @@ color: #520000;
   left: 0;
   width: 100%;
   height: 70%;
-  margin-top: 300px;
-  font-size: small;
-  margin-bottom: 15px;
-  padding:28px 26px;
+  margin-top: 293px;
+  font-size: 15px;
+  /* margin-bottom: 15px; */
+  padding:0px 44px;
   color: #1a1a1a!important;
 }
 
@@ -911,7 +930,7 @@ color: #520000;
   top: 60px;
   left: 110px;
   height: 40px;
-  margin-top: 320px;
+  margin-top: 291px;
   border: none;
   font-size: 12px;
   background-color: #a0241c;
@@ -921,7 +940,7 @@ color: #520000;
 }
 
 .code-wrapper .page__2 button:hover {
-  background-color: red;
+ cursor: pointer;
   color: black;
 }
 
@@ -941,12 +960,18 @@ color: #520000;
   display: none;
   filter: blur(0px) !important;
   z-index: 5;
+  /* border: 2px solid red; */
+  box-shadow: 0px 0px 19px 0px black;
+  border-radius: 23px;
 }
+
 
 .code-wrapper .book {
   margin-left: 10px;
   /* filter: blur(10px); */
   /* border: 2px solid #a0241c; */
+  /* border: 2px solid red; */
+
 }
 
 .code-wrapper .blur {
@@ -956,46 +981,72 @@ color: #520000;
 /* Carousel */
 .carousel-effect {
   overflow: hidden;
+  margin: 103px 0px;
 }
 
 .carousel-effect .main-card {
-  margin: 57px 60px;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  width: 1250px;
-  height: 544px;
+  margin: 35px 100px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 1057px;
+    height: 405px;
+    /* border: 2px solid red; */
 }
 
 .carousel-effect img {
-  margin: 0px 0px 40px 0px;
-  height: 260px;
+  
+  margin: 0px 0px 0px 1px;
+  height: 196px;
   border-radius: 1% !important;
-  height: 315px;
+  /* border: 2px solid red; */
 }
 
 .carousel-effect .card-c {
-  width: 378px;
+  width: 290px;
+  /* border: 2px solid red; */
+ 
 
 }
 
 .carousel-effect .card-body {
-  margin: 2px 21px;
+
+    margin: 9px 20px;
+    padding: 0px!important;
+
 }
 
 .carousel-effect .zoom {
   padding: 30px;
   transition: transform .4s;
-  height: 480px;
-  margin: 20px 5px;
+  height: auto;
+  margin: -4px 26px;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   /* backdrop-filter: blur(4px) !important; */
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  /* border: 2px solid red; */
+  border-radius: 36px;
 }
 
+.card-c button{
+  color: white;
+  margin: -7px 20px;
+  padding: 8px 0px;
+  background-color: rgb(83 167 189 / 62%);
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 18px
+}
+.card-c button:hover{
+  color: black;
+  font-weight: bolder;
+
+}
 .carousel-effect .zoom:hover {
   /* transform: scale(1.5); */
 
@@ -1013,10 +1064,7 @@ color: #520000;
 
 .carousel-effect .main-card .zoom:hover {
   opacity: 1;
-  filter: blur(0px);
-  /* transform: scale(1.1); */
-  margin-top: 20px;
-  background: #a0251c;
+  /* background: #a0251c; */
 }
 
 .carousel-effect .main-card:hover .owl-item {
