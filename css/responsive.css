@@ -146,6 +146,9 @@
 } 
 
 @media(max-width:576px) {
+    .final-aboutus .about-us .info h1{
+        font-size: 30px!important;
+    }
     body{
         /* border: 10px solid black;
         z-index: 99; */
@@ -156,6 +159,9 @@
     }
     .main-container{
         padding: 0px;
+    }
+    .main-container{
+        padding:0px;
     }
     .main-border {
         border: 15px solid white;
@@ -248,6 +254,9 @@
     .side-button img{
         height: 50px;
         width: 50px;
+    }
+    .info-content-add{
+        width: 100%;
     }
     /* .collar-adding{
         display: flex;
