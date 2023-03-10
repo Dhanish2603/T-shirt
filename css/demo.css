@@ -34,11 +34,12 @@ body{
     
   }
   .main-container{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     background-image: url(../blue.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    padding: 0 50px;
   }
   @keyframes gradient {
       0% {
@@ -148,6 +149,7 @@ color: white!important;
   /* background-color: grey; */
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   z-index: 99;
 }
@@ -245,18 +247,18 @@ color: white!important;
 .line1 {
   height: 48px;
   transform-origin: right;
-  transform: translate(182px, 11px) rotate(-32deg);
+  transform: translate(182px, 11px) rotate(0.9turn);
   padding: 4px 0px;
-  min-width: 34em;
+  min-width: 30%;
   opacity: 1;
 }
 
 .line2 {
   height: 48px;
-  transform: translate(-182px, 11px) rotate(35deg);
+  transform: translate(-182px, 11px) rotate(-0.9turn);
   transform-origin: left;
   padding: 4px 0px;
-  min-width: 33em;
+  min-width: 32%;
   opacity: 1;
 
 }
@@ -399,7 +401,7 @@ color: white!important;
   z-index: 4;
   position: relative;
   top: 310px;
-  left: 12px;
+  left: -12px;
   height: 366px;
   width: 122px;
   background-color: var(--whitecollar);
