@@ -71,7 +71,7 @@ body{
   /* width: min-content; */
   width: 100%;
   border-top: none !important;
-  animation: 2s main-border infinite;
+  animation: 6s main-border infinite;
   /* margin: 0px 25px; */
 }
 
@@ -101,24 +101,27 @@ body{
 
 @keyframes border-animate {
     0%{
-      border: 5px solid green;
-      border-color: green;
+      /* border: 5px solid green; */
+      /* border-color: green; */
+      border: 5px solid black;
+      border-color: black;
     }
     25%{
-      border: 5px solid red;
-      border-color: red;
+      /* border: 5px solid red; */
+      /* border-color: red; */
     }
     50%{
-      border: 5px solid yellow;
-      border-color: yellow;
+      /* border: 5px solid yellow; */
+      /* border-color: yellow; */
+      /* border: 5px solid rgba(106, 106, 106, 0.432); */
     }
     75%{
       border: 5px solid black;
       border-color: black;
     }
     100%{
-      border: 5px solid blue;
-      border-color: blue;
+      /* border: 5px solid blue; */
+      /* border-color: blue; */
     }
 }
 
@@ -179,14 +182,10 @@ color: white!important;
   transition: 0.6s all;
   /* box-shadow: 4px 5px 6px 2px rgb(82, 82, 82,0.8); */
   box-shadow: 3px 2px 11px 5px rgba(85, 85, 85, 0.8);
-  /* background-color: var(--whitecollar); */
-  background: url(../images/collor_light.jpeg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+  background-color: var(--whitecollar);
   border-radius: 8px 12px 15px 13px;
-  border: 5px solid red;
-  animation: 2s border-animate infinite;
+  /* border: 5px solid red; */
+  animation: 6s border-animate infinite;
 }
 
 .nav nav .image {
@@ -198,7 +197,7 @@ color: white!important;
   height: 80px;
   width: 100px;
   position: relative;
-  top: 119px;
+  
   right: 8px;
   transition: .5s all linear;
   z-index: 100;
@@ -215,31 +214,25 @@ color: white!important;
   transform-origin: right;
   transform: translate(-124px, -21px) rotate(-45deg);
   box-shadow: rgb(109 80 80 / 80%) -2px 2px 4px 5px;
-  /* background-color: var(--whitecollar); */
-  background: url(../images/collor_light.jpeg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+  background-color: var(--whitecollar);
+  
   border-radius: 11px 9px 12px 15px;
-  border: 5px solid red;
-  animation: 2s border-animate infinite;
+  /* border: 5px solid red; */
+  animation: 6s border-animate infinite;
 }
 
 .line1,
 .line2 {
-  /* background-color: var(--whitecollar); */
-  background: url(../images/collor_light.jpeg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+  background-color: var(--whitecollar);
+ 
   width: 100%;
   z-index: -1;
   text-indent: 100%;
   overflow: hidden;
   text-decoration: none;
   transition: 1s all;
-  border: 5px solid red;
-  animation: 2s border-animate infinite;
+  /* border: 5px solid red; */
+  animation: 6s border-animate infinite;
   box-shadow: -4px 8px 38px 0px rgba(65, 65, 65, 0.9);
 }
 
@@ -274,16 +267,13 @@ color: white!important;
   box-shadow: 0px 1px 8px 7px rgb(75, 75, 75, 0.7);
   z-index: -2;
   position: absolute;
-  border: 2px solid #a71c12;
+  /* border: 2px solid #a71c12; */
   height: 130px;
   width: 37em;
-  border: 5px solid red;
-  animation: 2s border-animate infinite;
-  /* background: var(--whitecollar); */
-  background: url(../images/collor_light.jpeg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+  /* border: 5px solid red; */
+  animation: 6s border-animate infinite;
+  background: var(--whitecollar);
+ 
 
 }
 
@@ -399,18 +389,14 @@ color: white!important;
 }
 
 .collar-button {
-animation: 2s border-animate infinite ;
+  animation: 6s border-animate infinite ;
   z-index: 4;
   position: relative;
   top: 310px;
   left: 12px;
   height: 366px;
   width: 122px;
-  /* background-color: var(--whitecollar); */
-  background: url(../images/collor_light.jpeg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+  background-color: var(--whitecollar);
   /* #59111C */
   border-radius: 0px 0px 0px 0px;
   box-shadow: 0px 1px 8px 5px rgb(70 70 70 / 74%);
@@ -464,9 +450,6 @@ animation: 2s border-animate infinite ;
 
 
 .final-aboutus {
-  background-image: url(../images/about-us-us.jpg);
-  background-size: cover; 
-  background-repeat: no-repeat;
   /* background-color: ; */
   margin: 59px 12px;
   display: flex;
@@ -1881,10 +1864,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
 }
 
-.code-wrapper{
-  background-image: url(../images/our-products.jpg);
-  position: relative;
-}
+
 
 .overlay3{
   background: rgb(91 213 249 / 55%);
