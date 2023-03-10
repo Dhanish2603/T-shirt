@@ -67,7 +67,8 @@
         width: 31em;
     }
     .collar-button{
-        top: 235px;
+        top: 244px;
+        left: 0px;
         height: 200px;
         width: 82px;
     }
@@ -213,7 +214,7 @@
     .main-border {
         margin-top: 115px;
         animation: none;
-        z-index: -1;
+        /* z-index: -1; */
     }
     .product-main{
         position: relative;
