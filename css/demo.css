@@ -600,6 +600,7 @@ opacity: 0.6;
 .final-aboutus .about-us .info h1{
   text-decoration: none;
   color: #520000!important;
+  font-size: 41px!important;
 }
 .final-aboutus .about-us .info i{
   /* border: 2px solid red; */
@@ -688,6 +689,9 @@ color: #520000;
   background-attachment: fixed;
   background-size: 100% 100%;
    border-style: dotted;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 /* .final-aboutus .container .card .icon .img {
@@ -710,9 +714,7 @@ color: #520000;
 .resize_fit_center {
   top:50%;
   left: 40%;
-  margin:42px 34px;
-  max-width:82%;
-  max-height:65%;
+  height: 140px;
   vertical-align: middle;
 }
 
