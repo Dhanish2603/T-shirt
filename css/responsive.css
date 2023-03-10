@@ -20,7 +20,7 @@
         display: flex!important;
         flex-wrap: wrap;
         justify-content: center!important;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         align-items: center!important;
         align-content: center!important;
         margin: auto;
@@ -29,7 +29,7 @@
     .final-aboutus .about-us .info {
         
         display: flex!important;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         justify-content: center!important;
         align-items: center!important;
         align-content: center!important;
