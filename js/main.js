@@ -91,7 +91,7 @@ $('.owl-carousel').owlCarousel({
   items: 4,
   loop: false,
   rewind: true,
-  autoplay: true,
+  autoplay: false,
   autoplayTimeout: 1000,
   autoplayHoverPause: true,
   nav: false,
