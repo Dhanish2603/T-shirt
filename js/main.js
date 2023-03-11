@@ -2,7 +2,6 @@
 let book = document.querySelectorAll(".book")
 let carousel = document.querySelectorAll(".carousel")
 function carouselToggle(n) {
-  // document.getElementById('body').style.backgroundColor ="black";
   carousel[n].style.display = "block";
 
   for (let index = 0; index < 4; index++) {
@@ -24,18 +23,12 @@ function carouselClose(num) {
     book[i].style.filter = "blur(0)"
     book[i].style.display = "block";
   }
-  // document.getElementById('body').style.backgroundColor ="white";
-
 }
 
+window.onscroll = function () { scrollFunction() };
 
-
-// Nav Bar js
-
-    window.onscroll = function() {scrollFunction()};
-
-    function scrollFunction() {
-  if (document.body.scrollTop > 80|| document.documentElement.scrollTop >80) {
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     document.getElementById("left").classList.add("left-add");
     document.getElementById("right").classList.add("right-add");
     document.getElementById("line1").classList.add("line1-add");
@@ -47,18 +40,18 @@ function carouselClose(num) {
     document.getElementById("collar-button").classList.add("collar-button-add");
     document.getElementById("back-collar").classList.add("back-collar-add");
     document.getElementById("wp-hide").classList.remove("d-none");
-    document.getElementById("img-move").classList.add("top-class") ;
-    document.getElementById("b").classList.add("b-add") ;
-    document.getElementById("b-about").classList.add("b-add") ;
-    document.getElementById("b-product").classList.add("b-add") ;
-    document.getElementById("b-contact").classList.add("b-add") ;
-    document.getElementById("info").classList.add("info-class-add") ;
-    document.getElementById("overlay2").classList.add("overlay2-add") ;
-    document.getElementById("info-content").classList.add("info-content-add") ;
-    document.getElementById("info-h1").classList.add("info-h1-add") ;
-    document.getElementById("info-h1-child").classList.add("info-h1-child-add") ;
-    document.getElementById("info-ol").classList.add("info-ol-add") ;
-    document.getElementById("info-h1-i").classList.add("info-h1-i-add") ;
+    document.getElementById("img-move").classList.add("top-class");
+    document.getElementById("b").classList.add("b-add");
+    document.getElementById("b-about").classList.add("b-add");
+    document.getElementById("b-product").classList.add("b-add");
+    document.getElementById("b-contact").classList.add("b-add");
+    document.getElementById("info").classList.add("info-class-add");
+    document.getElementById("overlay2").classList.add("overlay2-add");
+    document.getElementById("info-content").classList.add("info-content-add");
+    document.getElementById("info-h1").classList.add("info-h1-add");
+    document.getElementById("info-h1-child").classList.add("info-h1-child-add");
+    document.getElementById("info-ol").classList.add("info-ol-add");
+    document.getElementById("info-h1-i").classList.add("info-h1-i-add");
   } else {
     document.getElementById("left").classList.remove("left-add");
     document.getElementById("right").classList.remove("right-add");
@@ -72,16 +65,16 @@ function carouselClose(num) {
     document.getElementById("back-collar").classList.remove("back-collar-add");
     document.getElementById("wp-hide").classList.add("d-none");
     document.getElementById("img-move").classList.remove("top-class");
-    document.getElementById("b").classList.remove("b-add") ;
-    document.getElementById("b-about").classList.remove("b-add") ;
-    document.getElementById("b-contact").classList.remove("b-add") ;
-    document.getElementById("b-product").classList.remove("b-add") ;
-    document.getElementById("info").classList.remove("info-class-add") ;
-    document.getElementById("overlay2").classList.remove("overlay2-add") ;
-    document.getElementById("info-h1").classList.remove("info-h1-add") ;
-    document.getElementById("info-h1-child").classList.remove("info-h1-child-add") ;
-    document.getElementById("info-ol").classList.remove("info-ol-add") ;
-    document.getElementById("info-h1-i").classList.remove("info-h1-i-add") ;
+    document.getElementById("b").classList.remove("b-add");
+    document.getElementById("b-about").classList.remove("b-add");
+    document.getElementById("b-contact").classList.remove("b-add");
+    document.getElementById("b-product").classList.remove("b-add");
+    document.getElementById("info").classList.remove("info-class-add");
+    document.getElementById("overlay2").classList.remove("overlay2-add");
+    document.getElementById("info-h1").classList.remove("info-h1-add");
+    document.getElementById("info-h1-child").classList.remove("info-h1-child-add");
+    document.getElementById("info-ol").classList.remove("info-ol-add");
+    document.getElementById("info-h1-i").classList.remove("info-h1-i-add");
   }
 }
 
@@ -111,42 +104,28 @@ $('.owl-carousel').owlCarousel({
 })
 
 
-// contact us button click footer
-
-// function toggle(n){
-//   if(n == 0){
-//     document.getElementById("modalDialog").style.display="block";
-//   }
-//   else{
-//     document.getElementById("modalDialog").style.display="none";
-
-//   }
-// }
 // Get the modal
 var modal = document.getElementById("myModal");
 
-// Get the button that opens the modal
-//var btn = document.getElementById("myPtn");
 var btn = document.getElementsByClassName("myPtn");
 
-// Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close1")[0];
 
 // When the user clicks the button, open the modal
-[].forEach.call(btn, function(el) {
-  el.onclick = function() {
-  	modal.style.display = "block";
+[].forEach.call(btn, function (el) {
+  el.onclick = function () {
+    modal.style.display = "block";
   }
 })
 
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
+span.onclick = function () {
   modal.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
+window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
