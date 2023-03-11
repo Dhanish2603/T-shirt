@@ -5,9 +5,9 @@ const starIcon = `<svg class="star-icon" viewBox="0 0 43 40" fill="none" xmlns="
 </svg>`
 
 const REVIEWS = {
-  5: 120,
-  4: 40,
-  3: 20,
+  5: 80,
+  4: 8,
+  3: 2,
   2: 0,
   1: 0,
 }
