@@ -53,7 +53,6 @@ function carouselClose(num) {
     document.getElementById("b-product").classList.add("b-add") ;
     document.getElementById("b-contact").classList.add("b-add") ;
     document.getElementById("info").classList.add("info-class-add") ;
-    document.getElementById("overlay2").classList.add("overlay2-add") ;
     document.getElementById("info-content").classList.add("info-content-add") ;
     document.getElementById("info-h1").classList.add("info-h1-add") ;
     document.getElementById("info-h1-child").classList.add("info-h1-child-add") ;
@@ -77,7 +76,6 @@ function carouselClose(num) {
     document.getElementById("b-contact").classList.remove("b-add") ;
     document.getElementById("b-product").classList.remove("b-add") ;
     document.getElementById("info").classList.remove("info-class-add") ;
-    document.getElementById("overlay2").classList.remove("overlay2-add") ;
     document.getElementById("info-h1").classList.remove("info-h1-add") ;
     document.getElementById("info-h1-child").classList.remove("info-h1-child-add") ;
     document.getElementById("info-ol").classList.remove("info-ol-add") ;

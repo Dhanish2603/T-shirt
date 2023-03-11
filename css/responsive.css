@@ -17,24 +17,16 @@
 
 @media (max-width:992px) {
     .final-aboutus .about-us {
-        display: flex!important;
         flex-wrap: wrap;
-        justify-content: center!important;
-        /* border: 2px solid red; */
-        align-items: center!important;
-        align-content: center!important;
-        margin: auto;
     }
 
     .final-aboutus .about-us .info {
         
         display: flex!important;
-        /* border: 2px solid red; */
         justify-content: center!important;
         align-items: center!important;
         align-content: center!important;
         flex-wrap: wrap;
-        /* width: auto !important; */
         height: auto !important;
     }
 
@@ -150,10 +142,6 @@
     .final-aboutus .about-us .info h1{
         font-size: 30px!important;
     }
-    body{
-        /* border: 10px solid black;
-        z-index: 99; */
-    }
     .flex-class{
         border: 10px solid white;
         overflow-x: hidden;
@@ -173,9 +161,9 @@
     }
 
     .final-aboutus {
+        margin: 0;
         position: relative;
-        top: 5rem;
-        padding: 0;
+        top: 0.5rem;
     }
 
     .final-aboutus .about-us .info {
@@ -223,16 +211,19 @@
         background-size: 100% !important;
     }
     .main-border {
-        margin-top: 100px;
+        margin-top: 7rem;
         animation: none;
-        /* z-index: -1; */
     }
     .product-main{
         position: relative;
-        top: 200px;
-    margin-bottom: 238px;
     }
 
+    .p-info-flex{
+        margin:2px;
+    }
+    .p-info-head{
+        font-size: 1.2rem;
+    }
     footer{
         position: relative;
         /* top: 195px; */
@@ -259,25 +250,13 @@
     .info-content-add{
         width: 100%;
     }
-    /* .collar-adding{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        position: relative;
-        top: 120px;
-    }
-    .collar-adding img{
-        height: 300px;
-        width: 100%;
-    } */
     .bottom{
         z-index: 0;
         position: relative;
     }
 }
 
-@media (max-width:410px) {
+@media (max-width:478px) {
     .side-button{
         position: relative;
         top: -9px;     
@@ -288,12 +267,6 @@
     .content .map iframe {
         width: 120px;
         height: 200px;
-    }
-
-    .final-aboutus {
-        position: relative;
-        top: 0%;
-        margin: 0;
     }
     .about-us-desc{
         padding:0.5rem;
