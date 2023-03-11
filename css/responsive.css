@@ -16,12 +16,7 @@
 
 @media (max-width:992px) {
     .final-aboutus .about-us {
-        display: flex!important;
         flex-wrap: wrap;
-        justify-content: center!important;
-        align-items: center!important;
-        align-content: center!important;
-        margin: auto;
     }
 
     .final-aboutus .about-us .info {
@@ -179,9 +174,9 @@
     }
 
     .final-aboutus {
+        margin: 0;
         position: relative;
-        top: 5rem;
-        padding: 0;
+        top: 0.5rem;
     }
 
     .final-aboutus .about-us .info {
@@ -229,15 +224,19 @@
         background-size: 100% !important;
     }
     .main-border {
-        margin-top: 100px;
+        margin-top: 7rem;
         animation: none;
     }
     .product-main{
         position: relative;
-        top: 200px;
-    margin-bottom: 238px;
     }
 
+    .p-info-flex{
+        margin:2px;
+    }
+    .p-info-head{
+        font-size: 1.2rem;
+    }
     footer{
         position: relative;
     }
@@ -269,7 +268,7 @@
     }
 }
 
-@media (max-width:410px) {
+@media (max-width:478px) {
     .side-button{
         position: relative;
         top: -9px;     
@@ -280,12 +279,6 @@
     .content .map iframe {
         width: 120px;
         height: 200px;
-    }
-
-    .final-aboutus {
-        position: relative;
-        top: 0%;
-        margin: 0;
     }
     .about-us-desc{
         padding:0.5rem;

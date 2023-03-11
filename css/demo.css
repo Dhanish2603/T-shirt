@@ -95,19 +95,24 @@ body{
 }
 
 .nav nav ul {
-  width: 408px;
+  width: 400px;
   display: flex;
   justify-content: center;
+<<<<<<< HEAD
   align-items: center;
   padding: 35px;
   margin: 11px;
+=======
+  padding: 30px;
+  margin: 10px;
+>>>>>>> 7e2ed023b463331902eacc7fd45af29c32dbc79f
   list-style: none;
 }
 
 .nav nav ul li {
   padding: 16px 16px;
   cursor: pointer;
-  margin-top: 11px;
+  margin-top: 5px;
 }
 
 .nav nav ul li a {
@@ -115,10 +120,10 @@ body{
   color: black;
 }
 
-.nav nav .left {
+.nav .left, .nav .right {
   position: relative;
   transform-origin: left;
-  transform: translate(112px, -21px) rotate(45deg);
+  transform: translate(8.2rem, -0.8rem) rotate(45deg);
   transition: 0.6s all;
   box-shadow: 3px 2px 11px 5px rgba(85, 85, 85, 0.8);
   background-color: var(--whitecollar);
@@ -143,14 +148,16 @@ body{
   top: 0px !important;
 }
 
-.nav nav .right {
-  transition: 0.6s all;
+.nav .right {
   transform-origin: right;
-  transform: translate(-124px, -21px) rotate(-45deg);
+  transform: translate(-8.2rem, -0.8rem) rotate(-45deg);
   box-shadow: rgb(109 80 80 / 80%) -2px 2px 4px 5px;
+<<<<<<< HEAD
   background-color: var(--whitecollar);
   border-radius: 11px 9px 12px 15px;
   animation: 6s border-animate infinite;
+=======
+>>>>>>> 7e2ed023b463331902eacc7fd45af29c32dbc79f
 }
 
 .line1,
@@ -166,22 +173,24 @@ body{
   box-shadow: -4px 8px 38px 0px rgba(65, 65, 65, 0.9);
 }
 
-.line1 {
-  height: 48px;
+.line1,.line2 {
+  height: 3.2rem;
   transform-origin: right;
-  transform: translate(182px, 11px) rotate(0.9turn);
+  transform: translate(10rem, 2rem) rotate(0.9turn);
   padding: 4px 0px;
   min-width: 30%;
   opacity: 1;
 }
 
 .line2 {
-  height: 48px;
-  transform: translate(-182px, 11px) rotate(-0.9turn);
+  transform: translate(-10rem, 2rem) rotate(-0.9turn);
   transform-origin: left;
+<<<<<<< HEAD
   padding: 4px 0px;
   min-width: 32%;
   opacity: 1;
+=======
+>>>>>>> 7e2ed023b463331902eacc7fd45af29c32dbc79f
 }
 
 .lining {
@@ -237,14 +246,14 @@ body{
 
 .right-nav-add {
   margin: 13px !important;
-  padding: 10px !important;
+  padding: 0px !important;
   height: 65px !important;
 }
 
 .left-nav-add {
   animation: none !important;
   margin: 13px !important;
-  padding: 10px !important;
+  padding: 0px !important;
   height: 60px !important;
 
 }
@@ -288,31 +297,46 @@ body{
   z-index: 4;
   position: relative;
   top: 310px;
-  left: -12px;
-  height: 366px;
-  width: 122px;
+  height: 330px;
+  margin-bottom: 1rem;
   background-color: var(--whitecollar);
+<<<<<<< HEAD
   border-radius: 0px 0px 0px 0px;
+=======
+>>>>>>> 7e2ed023b463331902eacc7fd45af29c32dbc79f
   box-shadow: 0px 1px 8px 5px rgb(70 70 70 / 74%);
 
 
 }
 
 .collar-button ul {
+<<<<<<< HEAD
   text-align: center;
   height: 420px;
   flex-direction: column;
   padding: 0px 0px;
+=======
+  padding: 0px 16px;
+>>>>>>> 7e2ed023b463331902eacc7fd45af29c32dbc79f
   display: flex;
+  flex-direction: column;
   justify-content: center;
+<<<<<<< HEAD
   align-items: center;
+=======
+>>>>>>> 7e2ed023b463331902eacc7fd45af29c32dbc79f
 }
 
 .collar-button ul li {
   list-style: none;
+<<<<<<< HEAD
   padding: 0px 0px;
   margin: 41px 12px;
   font-weight: 10px;
+=======
+  padding: 10px 0px;
+  margin: 40px 12px;
+>>>>>>> 7e2ed023b463331902eacc7fd45af29c32dbc79f
 }
 
 .collar-button ul li img {
@@ -334,7 +358,7 @@ body{
 
 .final-aboutus {
   margin: 13rem 1rem 5rem 1rem;
-  padding: 2rem 1rem;
+  padding: 3rem 1rem;
   box-shadow: 0px 3px 7px 1px rgba(255, 255, 255, 0.452);
   border-radius: 2rem;
 
@@ -492,7 +516,7 @@ body{
 }
 .product-head{
 
-  border-radius: 13px;
+  border-radius: 5px;
   width: 49%;
   text-align: center;
   font-size: 23px;
@@ -717,6 +741,13 @@ body{
 
 }
 
+<<<<<<< HEAD
+=======
+.carousel-effect .main-card:hover .owl-item {
+
+  filter: blur(0px);
+}
+>>>>>>> 7e2ed023b463331902eacc7fd45af29c32dbc79f
 
 .close {
   position: absolute;
@@ -732,21 +763,21 @@ body{
 }
 
 .p-info {
+<<<<<<< HEAD
   margin-top: 30px;
   width: 100%;
   margin-bottom: 50px;
   height: auto;
   font-family: system-ui;
+=======
+  margin: 3rem 0;
+>>>>>>> 7e2ed023b463331902eacc7fd45af29c32dbc79f
   background: url(../redbg.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: 100% 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
   padding: 16px 20px;
   flex-wrap: wrap;
+  border-radius: 1rem;
 }
 .p-info-flex{
   display: flex;
@@ -754,7 +785,7 @@ body{
   margin: 22px 102px;
 }
 .p-info-head{
-  font-size: 35px;
+  font-size: 3rem;
   color:white;
 }
 .p-btn{
@@ -1254,9 +1285,13 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .review-row:last-child {
   margin-bottom: 0;
 }
+<<<<<<< HEAD
 
 
 
+=======
+/* review ends */
+>>>>>>> 7e2ed023b463331902eacc7fd45af29c32dbc79f
 .card4 {
   backdrop-filter: blur(10px);
   background: rgba(252, 246, 246, 0.3);
