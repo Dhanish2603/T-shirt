@@ -29,6 +29,9 @@ body{
     padding: 0 50px;
   }
   
+  ul li{
+    text-decoration: none !important;
+  }
 
 .side-button{
   position: relative;
@@ -98,14 +101,8 @@ body{
   width: 400px;
   display: flex;
   justify-content: center;
-<<<<<<< HEAD
-  align-items: center;
-  padding: 35px;
-  margin: 11px;
-=======
   padding: 30px;
   margin: 10px;
->>>>>>> 7e2ed023b463331902eacc7fd45af29c32dbc79f
   list-style: none;
 }
 
@@ -152,12 +149,6 @@ body{
   transform-origin: right;
   transform: translate(-8.2rem, -0.8rem) rotate(-45deg);
   box-shadow: rgb(109 80 80 / 80%) -2px 2px 4px 5px;
-<<<<<<< HEAD
-  background-color: var(--whitecollar);
-  border-radius: 11px 9px 12px 15px;
-  animation: 6s border-animate infinite;
-=======
->>>>>>> 7e2ed023b463331902eacc7fd45af29c32dbc79f
 }
 
 .line1,
@@ -185,12 +176,6 @@ body{
 .line2 {
   transform: translate(-10rem, 2rem) rotate(-0.9turn);
   transform-origin: left;
-<<<<<<< HEAD
-  padding: 4px 0px;
-  min-width: 32%;
-  opacity: 1;
-=======
->>>>>>> 7e2ed023b463331902eacc7fd45af29c32dbc79f
 }
 
 .lining {
@@ -300,43 +285,22 @@ body{
   height: 330px;
   margin-bottom: 1rem;
   background-color: var(--whitecollar);
-<<<<<<< HEAD
-  border-radius: 0px 0px 0px 0px;
-=======
->>>>>>> 7e2ed023b463331902eacc7fd45af29c32dbc79f
   box-shadow: 0px 1px 8px 5px rgb(70 70 70 / 74%);
 
 
 }
 
 .collar-button ul {
-<<<<<<< HEAD
-  text-align: center;
-  height: 420px;
-  flex-direction: column;
-  padding: 0px 0px;
-=======
   padding: 0px 16px;
->>>>>>> 7e2ed023b463331902eacc7fd45af29c32dbc79f
   display: flex;
   flex-direction: column;
   justify-content: center;
-<<<<<<< HEAD
-  align-items: center;
-=======
->>>>>>> 7e2ed023b463331902eacc7fd45af29c32dbc79f
 }
 
 .collar-button ul li {
   list-style: none;
-<<<<<<< HEAD
-  padding: 0px 0px;
-  margin: 41px 12px;
-  font-weight: 10px;
-=======
   padding: 10px 0px;
   margin: 40px 12px;
->>>>>>> 7e2ed023b463331902eacc7fd45af29c32dbc79f
 }
 
 .collar-button ul li img {
@@ -741,13 +705,10 @@ body{
 
 }
 
-<<<<<<< HEAD
-=======
 .carousel-effect .main-card:hover .owl-item {
 
   filter: blur(0px);
 }
->>>>>>> 7e2ed023b463331902eacc7fd45af29c32dbc79f
 
 .close {
   position: absolute;
@@ -763,15 +724,7 @@ body{
 }
 
 .p-info {
-<<<<<<< HEAD
-  margin-top: 30px;
-  width: 100%;
-  margin-bottom: 50px;
-  height: auto;
-  font-family: system-ui;
-=======
   margin: 3rem 0;
->>>>>>> 7e2ed023b463331902eacc7fd45af29c32dbc79f
   background: url(../redbg.png);
   background-size: 100% 100%;
   display: flex;
@@ -1285,13 +1238,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .review-row:last-child {
   margin-bottom: 0;
 }
-<<<<<<< HEAD
-
-
-
-=======
 /* review ends */
->>>>>>> 7e2ed023b463331902eacc7fd45af29c32dbc79f
 .card4 {
   backdrop-filter: blur(10px);
   background: rgba(252, 246, 246, 0.3);
