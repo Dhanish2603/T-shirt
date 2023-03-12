@@ -45,10 +45,12 @@ body{
 }
 
 .main-border {
-  border: 25px solid white;
+  border: 32px solid white;
   width: 100%;
   border-top: none !important;
-  animation: 6s main-border infinite;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  /* animation: 6s main-border infinite; */
 }
 
 /* animation */
@@ -161,7 +163,7 @@ body{
   text-decoration: none;
   transition: 1s all;
   animation: 6s border-animate infinite;
-  box-shadow: -4px 8px 38px 0px rgba(65, 65, 65, 0.9);
+  /* box-shadow: -4px 4px 10px 0px rgba(65, 65, 65, 0.9); */
 }
 
 .line1,.line2 {
@@ -171,11 +173,15 @@ body{
   padding: 4px 0px;
   min-width: 30%;
   opacity: 1;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 15px;
 }
 
 .line2 {
   transform: translate(-10rem, 2rem) rotate(-0.9turn);
   transform-origin: left;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 15px;
 }
 
 .lining {
