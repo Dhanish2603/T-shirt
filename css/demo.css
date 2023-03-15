@@ -383,7 +383,7 @@ body{
   height: 180%;
   /* background: #a0241c; */
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-  border-radius: 8px 8px 40px 40px; background-image: url(../redbg.png);
+  border-radius: 8px 8px 40px 40px; background-image: url(../redbg.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -731,7 +731,7 @@ body{
 
 .p-info {
   margin: 3rem 0;
-  background: url(../redbg.png);
+  background: url(../redbg.jpg);
   background-size: 100% 100%;
   display: flex;
   padding: 16px 20px;
@@ -771,7 +771,7 @@ color: white;
 
 footer {
   width: 100%;
-  background: url(../redbg.png);
+  background: url(../redbg.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -1158,7 +1158,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   font-weight: 500;
   font-size: 14px;
   padding: 17px;
-  background: url(../redbg.png);
+  background: url(../redbg.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
