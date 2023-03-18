@@ -22,9 +22,9 @@
 
 body{
     padding: 0 10px;
+    overflow-x: hidden;
   }
   .main-container{
-    overflow-x: hidden;
     background-color: #95e8f4;
     padding: 0 50px;
   }
@@ -383,7 +383,7 @@ body{
   height: 180%;
   /* background: #a0241c; */
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-  border-radius: 8px 8px 40px 40px; background-image: url(../redbg.jpg);
+  border-radius: 8px 8px 40px 40px; background-image: url(../images/redbg.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -476,7 +476,6 @@ body{
   background-repeat: no-repeat;
   box-shadow: 0px 3px 7px 1px rgba(255, 255, 255, 0.452);
   padding: 0px 5px;
-  padding-top: 50px;
 }
 .product-main-head{
   width: 100%;
@@ -487,10 +486,10 @@ body{
 .product-head{
 
   border-radius: 5px;
-  width: 49%;
   text-align: center;
   font-size: 23px;
   position: relative;
+  padding: 2rem;
   top: 61px;
   box-shadow: 0px 0px 26px 3px #4141416c;
   font-weight: bold;
@@ -586,10 +585,10 @@ body{
   top: 10px;
   left: 0;
   width: 80%;
-  height: 76%;
+  height: 80%;
   border-radius: 10px;
   object-fit: cover;
-  margin: -10px 36px;
+  margin: 5px 36px;
 }
 
 .code-wrapper .page__2 p {
@@ -598,7 +597,7 @@ body{
   left: 0;
   width: 100%;
   height: 70%;
-  margin-top: 293px;
+  margin-top: 300px;
   font-size: 15px;
   padding:0px 44px;
   color: #1a1a1a!important;
@@ -731,7 +730,7 @@ body{
 
 .p-info {
   margin: 3rem 0;
-  background: url(../redbg.jpg);
+  background: url(../images/redbg.jpg);
   background-size: 100% 100%;
   display: flex;
   padding: 16px 20px;
@@ -771,7 +770,7 @@ color: white;
 
 footer {
   width: 100%;
-  background: url(../redbg.jpg);
+  background: url(../images/redbg.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -781,6 +780,7 @@ footer {
 
 .main-content {
   display: flex;
+  padding: 2rem;
 }
 
 .main-content .box {
@@ -879,39 +879,40 @@ footer {
 .bottom .center-text {
   padding: 5px;
   font-size: 0.9375rem;
-  background: #151515;
+  background: rgb(29, 29, 29);
 }
 .center-text{
-  background-color: black;
   display: flex;
   justify-content: center;
 }
 
 .bottom .center-text span {
-  color: #656565;
+  color: white;
+  margin: 0 0.2rem;
 }
 
 .bottom .center-text a {
   color: #f12020;
   text-decoration: none;
+  margin: 0 0.2rem;
 }
 
 .bottom .center-text a:hover {
   text-decoration: underline;
 }
 .bottom .center-text a img{
-  height: 30px;
-  width: 100px;
+  height: 3rem;
+  width: 10rem;
   background: white;
   padding: 5px;
   border-radius: 10px;
 }
 .line-height{
-  line-height: 30px;
+  line-height: 50px;
 }
 
-.container {
-  padding: 70px;
+.content .container {
+  padding: 4rem 2rem;
 }
 
 .animate-top {
@@ -1158,7 +1159,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   font-weight: 500;
   font-size: 14px;
   padding: 17px;
-  background: url(../redbg.jpg);
+  background: url(../images/redbg.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;

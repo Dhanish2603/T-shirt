@@ -241,7 +241,7 @@
         position: relative;
     }
     .p-info{
-        margin-bottom: 225px;
+        margin-bottom: 5rem;
     }
     .side-button{
         display: flex;
@@ -288,6 +288,9 @@
     }
     .pheading h1{
         font-size: 25px;
+    }
+    .code-wrapper .page__2 button {
+        left: 90px;
     }
     .map{
         width: auto;

@@ -1,4 +1,3 @@
-
 let book = document.querySelectorAll(".book")
 let carousel = document.querySelectorAll(".carousel")
 function carouselToggle(n) {
@@ -76,30 +75,6 @@ function scrollFunction() {
   }
 }
 
-// Product Carousel Owl
-
-$('.owl-carousel').owlCarousel({
-  items: 4,
-  loop: false,
-  rewind: true,
-  autoplay: false,
-  autoplayTimeout: 1000,
-  autoplayHoverPause: true,
-  nav: false,
-
-
-  responsive: {
-    0: {
-      items: 1
-    },
-    550: {
-      items: 2
-    },
-    1008: {
-      items: 3
-    }
-  }
-})
 
 
 // Get the modal
@@ -112,7 +87,7 @@ var span = document.getElementsByClassName("close1")[0];
 // When the user clicks the button, open the modal
 [].forEach.call(btn, function (el) {
   el.onclick = function () {
-    modal.style.display = "block";
+    modal.style = "display: block; overflow-y: hidden;";
   }
 })
 
