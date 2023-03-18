@@ -24,9 +24,7 @@ function carouselClose(num) {
   }
 }
 
-window.onscroll = function () { scrollFunction() };
-
-function scrollFunction() {
+window.onscroll = function () {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     document.getElementById("left").classList.add("left-add");
     document.getElementById("right").classList.add("right-add");
@@ -39,17 +37,12 @@ function scrollFunction() {
     document.getElementById("collar-button").classList.add("collar-button-add");
     document.getElementById("back-collar").classList.add("back-collar-add");
     document.getElementById("wp-hide").classList.remove("d-none");
-    document.getElementById("img-move").classList.add("top-class") ;
-    document.getElementById("b").classList.add("b-add") ;
-    document.getElementById("b-about").classList.add("b-add") ;
-    document.getElementById("b-product").classList.add("b-add") ;
-    document.getElementById("b-contact").classList.add("b-add") ;
-    document.getElementById("info").classList.add("info-class-add") ;
-    document.getElementById("info-content").classList.add("info-content-add") ;
-    document.getElementById("info-h1").classList.add("info-h1-add") ;
-    document.getElementById("info-h1-child").classList.add("info-h1-child-add") ;
-    document.getElementById("info-ol").classList.add("info-ol-add") ;
-    document.getElementById("info-h1-i").classList.add("info-h1-i-add") ;
+    document.getElementById("img-move").classList.add("top-class");
+    document.getElementById("b").classList.add("b-add");
+    document.getElementById("b-about").classList.add("b-add");
+    document.getElementById("b-product").classList.add("b-add");
+    document.getElementById("b-contact").classList.add("b-add");
+    document.getElementById("info").classList.add("info-class-add");
   } else {
     document.getElementById("left").classList.remove("left-add");
     document.getElementById("right").classList.remove("right-add");
@@ -63,17 +56,13 @@ function scrollFunction() {
     document.getElementById("back-collar").classList.remove("back-collar-add");
     document.getElementById("wp-hide").classList.add("d-none");
     document.getElementById("img-move").classList.remove("top-class");
-    document.getElementById("b").classList.remove("b-add") ;
-    document.getElementById("b-about").classList.remove("b-add") ;
-    document.getElementById("b-contact").classList.remove("b-add") ;
-    document.getElementById("b-product").classList.remove("b-add") ;
-    document.getElementById("info").classList.remove("info-class-add") ;
-    document.getElementById("info-h1").classList.remove("info-h1-add") ;
-    document.getElementById("info-h1-child").classList.remove("info-h1-child-add") ;
-    document.getElementById("info-ol").classList.remove("info-ol-add") ;
-    document.getElementById("info-h1-i").classList.remove("info-h1-i-add") ;
+    document.getElementById("b").classList.remove("b-add");
+    document.getElementById("b-about").classList.remove("b-add");
+    document.getElementById("b-contact").classList.remove("b-add");
+    document.getElementById("b-product").classList.remove("b-add");
+    document.getElementById("info").classList.remove("info-class-add");
   }
-}
+};
 
 
 
