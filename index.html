@@ -8,9 +8,6 @@
   <title>Tshirt</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" href="./css/owl.carousel.min.css">
-  <link rel="stylesheet" href="./css/owl.theme.default.min.css">
   <link rel="stylesheet" href="./css/demo.css">
   <link rel="stylesheet" href="./css/responsive.css">
   <link rel="stylesheet" href="./css/aos.css">
@@ -61,25 +58,26 @@
 
       </nav>
 
-      <nav class=" d-none nav-part-2 navbar navbar-expand-lg bg-light">
+      <nav class=" nav-part-2 navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#main-container"><img src="./images/Sau_Groups_Logo_R.png" height="50px"
               width="200px" alt=""></a>
 
 
-          <button class="navbar-toggler" style="font-size: 3rem;" type="button" data-bs-toggle="collapse"
+          <button class="navbar-toggler" onclick="showNav()" style="font-size: 3rem;" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-            aria-label="Toggle navigation">
+            aria-label="Toggle navigation" onclick="showNav()">
             <span class="navbar-toggler-icon" style="height: 0.5em;width: 0.5em;vertical-align: top;">&#8801;</span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#main-container">Home</a>
-              <a class="nav-link active" aria-current="page" href="#about">About Us</a>
-              <a class="nav-link active" aria-current="page" href="#product1">Products</a>
-              <a class="nav-link active" aria-current="page" href="#contactuss">Contact Us</a>
+          
+        </div>
+        <div class="collapse navbar-collapse d-none"  id="dhanish">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#main-container">Home</a>
+            <a class="nav-link active" aria-current="page" href="#about">About Us</a>
+            <a class="nav-link active" aria-current="page" href="#product1">Products</a>
+            <a class="nav-link active" aria-current="page" href="#contactuss">Contact Us</a>
 
-            </div>
           </div>
         </div>
       </nav>
@@ -414,13 +412,25 @@
   </div>
 </body>
 <script src="./js/jquery.min.js"></script>
-<script src="./js/bootstrap.bundle.min.js"></script>
-<script src="./js/bootstrap.bundle.js"></script>
-<script src="./js/owl.carousel.min.js"></script>
 <script src="./js/main.js"></script>
 <script src="./js/aos.js"></script>
 <script>
   AOS.init();
+  let nav = 1;
+var togglebtn = document.getElementById("navbarNavAltMarkup");
+function showNav() {
+  if(nav == 0){
+    console.log("run1");
+    document.getElementById("dhanish").classList.add("d-none")
+    nav = 1;
+  }
+  else{
+    console.log("run2")
+    document.getElementById("dhanish").classList.remove("d-none")
+    nav = 0;
+    
+  }
+}
 </script>
 
 </html>

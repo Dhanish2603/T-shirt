@@ -1,29 +1,3 @@
-let book = document.querySelectorAll(".book")
-let carousel = document.querySelectorAll(".carousel")
-function carouselToggle(n) {
-  carousel[n].style.display = "block";
-
-  for (let index = 0; index < 4; index++) {
-
-    if (index == n) {
-      book[index].style.filter = "blur(5px)";
-      book[index].style.display = "none";
-    } else {
-      book[index].style.filter = "blur(5px)";
-      carousel[index].style.display = "none";
-      book[index].style.display = "none";
-    }
-  }
-}
-
-function carouselClose(num) {
-  carousel[num].style.display = "none";
-  for (let i = 0; i < 4; i++) {
-    book[i].style.filter = "blur(0)"
-    book[i].style.display = "block";
-  }
-}
-
 window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {

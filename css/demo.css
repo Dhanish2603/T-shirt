@@ -53,6 +53,10 @@ body{
   /* animation: 6s main-border infinite; */
 }
 
+.nav-part-2{
+  display: none !important;
+}
+
 /* animation */
 @keyframes main-border {
   0%{
