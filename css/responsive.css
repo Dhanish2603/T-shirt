@@ -180,15 +180,18 @@
 
     .main-container {
         padding: 0px;
+        margin-bottom: 50px;
     }
 
     .main-container {
+        padding: 10px;
+    }
+    body{
         padding: 0px;
     }
-
     .main-border {
-        border: 15px solid red;
-        padding: 4px;
+        border: 15px solid white;
+        padding: 4px 10px;
     }
 
     .collar-button {

@@ -252,7 +252,9 @@ body{
   height: 60px !important;
 
 }
-
+.wp img{
+  margin-top: -10px;
+}
 .logo-add {
   z-index: 1 !important;
   position: relative !important;
